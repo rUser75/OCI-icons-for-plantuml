@@ -1,7 +1,7 @@
 this is the list of available icons groupped by category
 Category | PUML macro name | image | file name
 ---    |  ---  | :---:  | ---
-AnalyticsAI | - | ![DataIntegration.png](dist/AnalyticsAI/DataIntegration.png?raw=true) | AnalyticsAI/DataIntegration.png
+AnalyticsAI | - | ![DataIntegration.png](source/AnalyticsAI/DataIntegration.png?raw=true) | AnalyticsAI/DataIntegration.png
 AnalyticsAI | - | ![DocumentUnderstanding.png](dist/AnalyticsAI/DocumentUnderstanding.png?raw=true) | AnalyticsAI/DocumentUnderstanding.png
 AnalyticsAI | - | ![Streaming.png](dist/AnalyticsAI/Streaming.png?raw=true) | AnalyticsAI/Streaming.png
 AnalyticsAI | - | ![GenerativeAI.png](dist/AnalyticsAI/GenerativeAI.png?raw=true) | AnalyticsAI/GenerativeAI.png
