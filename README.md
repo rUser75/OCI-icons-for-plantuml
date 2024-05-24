@@ -90,3 +90,5 @@ OCI_VIRTUALMACHINE(blue,1,luca)
 
 @enduml
 ```
+this is the example
+![helloWorld](https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/main/example/helloWorld.png)
