@@ -3,8 +3,8 @@
 
 PlantUML images, sprites, macros, and other includes for Oracle Cloud Infrastructure (OUC) services and resources.
 Used to create PlantUML diagrams with OCI components.
-All elements are generated from the official [OCI Architecture Diagram Toolkits](https://docs.oracle.com/en-us/iaas/Content/General/Reference/graphicsfordiagrams.htm)
-The original png is resized to fit correct size.
+All elements are generated from the official [OCI Architecture Diagram Toolkits](https://docs.oracle.com/en-us/iaas/Content/General/Reference/graphicsfordiagrams.htm).
+The original png files was resized to fit correct size.
 
 ## Table of Contents
 
