@@ -1,0 +1,23 @@
+'Image contente are Copyright Oracle, Inc. or its affiliates. All Rights Reserved. 
+
+
+sprite $oci_Functions [64x64/16z] {
+xTLLWe10281XO407sBZ_RTVkrjd-dgpVre5xtW6GvH8EKCBe5vb0WTtq6bSiUl68S4Kmexg7I-XRzLayWsUz-XcoqETyaEXYpt1K_8RzVoytUur7cSlZxo_B
+6VJjldyAct2lLz_40DJ3fTvqZLdHerg7bth1DQHLFtfyPzvV_07zVv-5DNoetrJqkNPutaVJBM7l-y5joRz_d3hPvpeMSRHF6Cyjtd_h5JC86BKJHdEyz_p5
+jUZDMsVVl_3Z-lzUiCSNUjEULRrQPtVyYMxUCojwe42jqLp0_V6Nxex_FwYdIxZksTskSKKeP7QHCbJe8eJxtj_lrUyV
+}
+
+!function $oci_FunctionsIMG($scale=1)
+!return "<img data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAALNUExURf///wAAAP////////////////////////////////////X3+P////////////v8/P////////////////////////H09f7+/v////////////f5+f39/f///////////////////////////////////////////+br7bDAxqG1u6K2vMDN0uTq612AiytYZihWZChVZDJea5Kpsaa5vypXZTVgblN4g1V5hFV5hUpxfUNreOLo6v///5OqsSVUYl6Ai+rv8PP29vP19vX3+MfT1zZhbjtlctjh45SqsSVTYmKDjfb4+NPd3zhicNnh49Pc3zhib/7+/vT29/r7+36Zol6Ail+BjF1/irPDyO/y81J3giZUYydVZCdVYyZUYpiutVR4hHGPmKe5v6S4vqW4vqC1u050f5qvtvj5+mmIkmiIkp+zuvn6+vb3+GWGkClWZGKEjmCCjCZVY5mutff4+ai7wJSrspKqsczX2sjU17vJzrvKzuXq7O/z9CxZZy1aaC5aaK6/xfn7+9Td4M3Y283X2+nt7ylWZTpkcUVteURseEVseUJqdy9caa2/xOru8FR5hDRfbTVgbeTp69Da3UlwfOnu70txfUtyferu7050gH+ao8DO0r7M0L/M0K/AxSpYZilXZaC0u1N3g62+xO3w8mqJk01zf090gLHBx/H09WeHkUFpdkNrd7bGy/39/fz9/ebs7eDn6eHn6eTq7Ofs7vv8/GqKk0Zuelt+ifz8/evv8fb4+ezw8VJ3gzBcauXr7Ojt7l6Bi0xyfrrIzUpwfIKdpcbS1sPQ1JGor0BpdaG0u7jHzJats6i6wC1aZ0JqdipXZlR4gzxlckhvez5ndDRfbLDBxjJdazNebPDz9Fh8hy9baTBcacjT18HO0vf5+WKDjpWrslZ6hdXe4a6/xLTEyThjcDRgbejt7z1mczZgbs7Y28/Z3MTojfoAAAAodFJOUwAANa7p8duBEzjR/JYMtPdRiZKR6H7+6jsdq/vtbAMSX5eioT4FAgHRQDn+AAAAAWJLR0QAiAUdSAAAAAd0SU1FB+gFFg41KBZL8zoAAAKzSURBVFjDY2BgYmZhJQ+wsXMwMDJwcmloapEFtHW4eXgZGPh09fQNyAGGBkbG/AIMDKwmpmbmFmQASyt9axtBBgZbO3sHRydn0oGLq5u7hxDQAE8vbx9bcoCvn7s/RQYEBCIbEOQTTAoIwTDAOTQsnHgQEYlhQFR0TGwcscAgPgHTgESDpOQUokBqWnpcBhYD4lKIDb3MLHsKDcgeNYBmBuTkuhAF8qLysRpQYFXoTRwocjfEYkB0cVw8kSDGIL4Ew4DSMrty4kFFJYYBZAAqGxBSVV2DD9QSMqDOUr8eN2hobLJtbqlshYC2tnZMA6ISOzq7urGDnt6++n7bCRMnuUHBZBNsBsSWa9hgB1OmTjPtt50+o0MfCky1sBmAJylPSAcZMNMU6iF9fVINmDVqAOUGTJhNjAEGc+bOww7mL7Be2G/bPi1uERQYLMZiwBJDPGl54cKltsuWr1gJBbNXYRqwes3adXiA9XrbDauj4CAT04CNmzZvwQecCOVGMgCqARumb0UF27aTZsDqHT07kUHXrnbb3Xumw8Fe24372uE8FyyxsD+u4QACNBr0HrQ9dNhqJhQcOWq7b80xGG/GAmzpwPD4iZMwcOJUvfVB2ymnDUxhYKlt+zFDGKfgDMGUeLYBaIBuLzzt1ZOalEcNGCgDzk3XgIHp5y+A0sFFU1hNoA+qFxbBOJewGXDZ4MpVBLhmCjSgdprRdSiYdMN2QvRNGO9WKqYBt+/cPXAXAQ7cu6phm9nqeh8GptvmToXzXDUwDQhpnfsABVQ9JC03UlweUGCAndcjyvpMj+OfVPoGkA6ePpvk7i/MwCDyvLEh8AU54KVB+itRBgYeseOv37iRBayei0swMEhKSfu3viUHvKuVkZVjYGCQV1BUIgsoC6qoAnvvjAwManLkAXUGRkZGAJh4TaUVr8qoAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAABJRU5ErkJggg=={scale="+$scale+"}>"
+!endfunction
+
+
+OCIEntityColoring(oci_Functions)
+!define oci_Functions(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_Functions, oci_Functions)
+!define oci_Functions(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_Functions, oci_Functions)
+!define OCI_FUNCTIONS(_color)                                 SPRITE_PUT(                                 oci_Functions, _color)
+!define OCI_FUNCTIONS(_color, _scale)                         SPRITE_PUT(                                 oci_Functions, _color, _scale)
+!define OCI_FUNCTIONS(_color, _scale, _alias)                 SPRITE_ENT(  _alias, OCI FUNCTIONS,         oci_Functions, _color, _scale)
+!define OCI_FUNCTIONS(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, OCI FUNCTIONS,         oci_Functions, _color, _scale, _shape)
+!define OCI_FUNCTIONS(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, OCI FUNCTIONS, _label, oci_Functions, _color, _scale, _shape)
+skinparam folderBackgroundColor<<OCI FUNCTIONS>> White

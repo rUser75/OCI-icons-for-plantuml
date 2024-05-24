@@ -1,0 +1,24 @@
+'Image contente are Copyright Oracle, Inc. or its affiliates. All Rights Reserved. 
+
+
+sprite $oci_APIService [64x64/16z] {
+xTK5SiGm341HCqYUsVlVjlBMQMG7bNARFxZmWeP7Iwt7VXXhyEDyI96N_EHzYaDcpUVIboQVoX3QTP_2NEO-1rR4BU_KNE0-A9Q6yvwg7ZBbhljdNkWXKXLP
+Jy6wPsBqDNOHWn-IdfzbtMjm_lv3CtKS6S3MwUTV9X2gHuHC0Pv-_wM1oTldruBnunfetkX0mPxNMZCVGmXMfJTliL3Rzuz0iVklnSvZJhZfaUgUVqumUD2B
+-yT4FV_XgDo__xZm9yQVp4EWwbSkK23rs-DFxY5Hxj3xK-F7RFeSvu1xYAo4grwm_gvx7_lczJ-EcHKlsdy-npzEzfVyxMz_-zlVNjB7UsT5fS4N5DPv0-8m
+CA-qF3NxuAxaeVbokUfrXijvzTsz
+}
+
+!function $oci_APIServiceIMG($scale=1)
+!return "<img data:image/png;base64,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{scale="+$scale+"}>"
+!endfunction
+
+
+OCIEntityColoring(oci_APIService)
+!define oci_APIService(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_APIService, oci_APIService)
+!define oci_APIService(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_APIService, oci_APIService)
+!define OCI_APISERVICE(_color)                                 SPRITE_PUT(                                  oci_APIService, _color)
+!define OCI_APISERVICE(_color, _scale)                         SPRITE_PUT(                                  oci_APIService, _color, _scale)
+!define OCI_APISERVICE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, OCI APISERVICE,         oci_APIService, _color, _scale)
+!define OCI_APISERVICE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, OCI APISERVICE,         oci_APIService, _color, _scale, _shape)
+!define OCI_APISERVICE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, OCI APISERVICE, _label, oci_APIService, _color, _scale, _shape)
+skinparam folderBackgroundColor<<OCI APISERVICE>> White

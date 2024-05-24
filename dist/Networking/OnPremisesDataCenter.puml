@@ -1,0 +1,23 @@
+'Image contente are Copyright Oracle, Inc. or its affiliates. All Rights Reserved. 
+
+
+sprite $oci_OnPremisesDataCenter [36x64/16z] {
+nPJLWS0W5C1uBkm_xxbKqDDy1qrfMGD7G7b6OuJJaq9PSq2r9uSp6Bje3NXnWBMD0EUxuxLDuj49k-DvTgHSWO8nSSXewaYLgGC4LqVn3cVYtjajsyJ1wL8u
+PorqluNQ1LNxYHRiF6-HNsfXT4UkBR91FJeQRVpO0ZiSMeXrs6xXSaT_f4KijjXVo_YEhBoBxHPbuLs8_syBB3znp_rU_RNwUrvliNw7W6sEBTGxBErd_Hlh
+_pV-haNvlnO8NQG-EvGr-cJrvylI717yUgCy0CiQZm
+}
+
+!function $oci_OnPremisesDataCenterIMG($scale=1)
+!return "<img data:image/png;base64,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{scale="+$scale+"}>"
+!endfunction
+
+
+OCIEntityColoring(oci_OnPremisesDataCenter)
+!define oci_OnPremisesDataCenter(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_OnPremisesDataCenter, oci_OnPremisesDataCenter)
+!define oci_OnPremisesDataCenter(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_OnPremisesDataCenter, oci_OnPremisesDataCenter)
+!define OCI_ONPREMISESDATACENTER(_color)                                 SPRITE_PUT(                                            oci_OnPremisesDataCenter, _color)
+!define OCI_ONPREMISESDATACENTER(_color, _scale)                         SPRITE_PUT(                                            oci_OnPremisesDataCenter, _color, _scale)
+!define OCI_ONPREMISESDATACENTER(_color, _scale, _alias)                 SPRITE_ENT(  _alias, OCI ONPREMISESDATACENTER,         oci_OnPremisesDataCenter, _color, _scale)
+!define OCI_ONPREMISESDATACENTER(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, OCI ONPREMISESDATACENTER,         oci_OnPremisesDataCenter, _color, _scale, _shape)
+!define OCI_ONPREMISESDATACENTER(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, OCI ONPREMISESDATACENTER, _label, oci_OnPremisesDataCenter, _color, _scale, _shape)
+skinparam folderBackgroundColor<<OCI ONPREMISESDATACENTER>> White

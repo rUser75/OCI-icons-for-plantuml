@@ -1,0 +1,3 @@
+$OCIGroupColoring(oci_AvailabilityZoneGroup, "#00A4A6", dashed)
+!define oci_AvailabilityZoneGroup(g_alias, g_label="\n  Availability Zone") $OCIDefineGroup(g_alias, g_label, oci_AvailabilityZoneGroup)
+

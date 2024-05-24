@@ -1,0 +1,27 @@
+'Image contente are Copyright Oracle, Inc. or its affiliates. All Rights Reserved. 
+
+
+sprite $oci_ServiceMesh [64x64/16z] {
+Z9C7agmm34IjO6ErVhZ_RTTC0pL1IqrNG0vF4Vylr7vHTVSUjzwjTd1Fgvkipq0cnZB4N4iFDJy0X8iZWSGo0i3ucZ-ukRD-6BjTy6NfMuODv1BC-1qMkHLD
+A7Zno2cEd1lZRZFXCZDSxdcsV28JCn9szi-GmLqEuoxuZaJaqVUE79m3Tp5-Ju71zpkgMsPlInhm_Tipf-hkXYdKTFCuBdX27_uENf7zS1zUrl30SIPe9S_o
+k5FWdMTtF6Cyp2fwMBlbkVMPmRbF_9vlTiPvmMNIBUKrVvKmESOdVcIETgdVyBpxnXjzViCpLplvfvql-UTe1-_8qIeU9T_6sInEReiCBVavhU9r0PlJvkke
+-IRIIfulZ3PVv-oNN1OlqY-9B5wyNvfyuShQOJBpILDttlAIxRo-tf6pDmOCZqoSoYdaSOYypASh6Jx0aKaaaEXwILZ_RYsj3-iNlTInCo77yDYBedzY9aN_
+s7FuzJjDQoNlnVmfMv1Sxs5hRpmWpxm0RtpR6Fz8PKXxbgYsPxwflbqWnNyPMAON8k-51YbxbEg6HA7uARsyaI04021q-TJ__zTinGmMD6RCkknhuryZr-pi
+UjtVojVpZ_UlFR_-_jJtjtu_zVkj_u_w_-h_p_h_zlputEK7yWkyvnVo4xpc9_ERlESt_O6y-mFzXRpx2_s9FFr9_8qy_KtyaJpzqVoLFFtL_NaTVI_U_Tdz
+_JTDuk-XFyJ-qljJxs-zF_R-sljpxUyB
+}
+
+!function $oci_ServiceMeshIMG($scale=1)
+!return "<img data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAL0UExURQAAAP////////////////////////////////////////////////////////////////////Hz9P////////f5+fz9/f////T39////////+7y8////////////+/y8////////+rv8P////////////X3+P////////////7+/v7+/v////////v8/Pz8/Pn6+vj6+v////n6+vj5+v////v8/P////////X39////+ru8P////39/e/z9O7y8/j5+v////////////39/fT29/H09fj5+v///////7nIzJyxuMvW2bDAxrbFyuTq7IujqzpkcSZUYoqjqz1mczRfbTVgblF2grTEyefs7a/AxTZhbitYZkBpdeXr7LPDyKm7wTJeaypYZjNebDBcailWZUJqd11/ij5ndD9odT5odFp9iClXZSpXZnORmidVY0RsebrJzoOdpjFdaypXZUFpdsbS1kpwfaa5v0RreFl9iOru8K/AxjpjcVh8hnWSnDJdayxZZ1t+ib3Lz2SFjzRfbF2Ai0lwfEBpdsPP0/X393+aozVgbTNfbOLp64KdpShWZEVseUZtei1ZZ4miqvT29+/z9JettDljcC9baYegqPDz9IGcpN3l58DO0ll8h4ehqdbe4dPc32+Oly5aaO/y88nU2K2+w9Lb3ld7hsLO0kRseGKEjr/N0fn6+v7+/rPEyDFdatjg48fT10Nrd6y+wy1aaJGor/z8/Ehve6i7waK1vDdhb4ukrOPp67XFytnh45KpsKG1vKW4vqi6wEduev39/cLP07nIzd3k5qS4vvz9/eLo6vX3+Pz8/ZSqsWSFkOXr7cDN0fn6+7vKzqu9wr3L0F+Bi16Bi/v8/O7y89vj5crV2ZCnr6i7wOrv8JOqsdzj5ZOpsZSrstri5N7l51x/idvi5brJzeHn6fb3+LzKzvP19pGosObr7XWTnPP29pqvtoCbo+3x8tXe4NXe4ff5+a7Axau9w7LDyPDz9dbf4SwcrhcAAABJdFJOUwAAARUhIAsZgOUabaq8lEUkmvwboPbewfQIkvsq4qH6cNj7BUC3+rU9ZNzZD4Hs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{scale="+$scale+"}>"
+!endfunction
+
+
+OCIEntityColoring(oci_ServiceMesh)
+!define oci_ServiceMesh(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_ServiceMesh, oci_ServiceMesh)
+!define oci_ServiceMesh(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_ServiceMesh, oci_ServiceMesh)
+!define OCI_SERVICEMESH(_color)                                 SPRITE_PUT(                                   oci_ServiceMesh, _color)
+!define OCI_SERVICEMESH(_color, _scale)                         SPRITE_PUT(                                   oci_ServiceMesh, _color, _scale)
+!define OCI_SERVICEMESH(_color, _scale, _alias)                 SPRITE_ENT(  _alias, OCI SERVICEMESH,         oci_ServiceMesh, _color, _scale)
+!define OCI_SERVICEMESH(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, OCI SERVICEMESH,         oci_ServiceMesh, _color, _scale, _shape)
+!define OCI_SERVICEMESH(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, OCI SERVICEMESH, _label, oci_ServiceMesh, _color, _scale, _shape)
+skinparam folderBackgroundColor<<OCI SERVICEMESH>> White

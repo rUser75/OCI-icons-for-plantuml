@@ -1,0 +1,23 @@
+'Image contente are Copyright Oracle, Inc. or its affiliates. All Rights Reserved. 
+
+
+sprite $oci_BlockStorage [64x64/16z] {
+xPU73a8X302PBT0cx_-_rZsncAHrosMVEVKDrk9CTBcAY4K7-5rEh0MtFJ0fuRRz0yXgTdr2DU0UGAvgy17NZrmXQq0wzEXKn4_hmmtRpxrWnTvNwicYXK7V
+-f7085eSzPJ29NNVKxwovKuVtIM5GR0_sSz-zlhnOn-_zlb3dhza-w7pRuQUADlX_Uy1qOwVVosN48DWsnm_J-bdFtk4Ing3QF59unzBJn9jjiv_FzK3rwG2
+jxtf_5ZSbbpqnoSpYx5V0m
+}
+
+!function $oci_BlockStorageIMG($scale=1)
+!return "<img data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAALiUExURQAAAP////////////////////////////////////////////////v8/Pb5+fj6+v7+/v////////////v8/P////////////n6+/////////////////////////////////////////////b4+f////////f5+v////////////////3+/vT3+PH19vL29vr7/P///////////////////////7DKz1qSnEqHkkqIkk2KlH+rs+Xu77vR1hRkcgBVZQBWZQBWZmSZo3OjqwBZaABXZiVwfeTt7mWYogBTYgBUZCJseeHq7KPCyGSZomebpGWao3uosO3z9Pj6+vP29/X3+P3+/oyzuj5/i0GCjT+BjFuSnOnw8WWZogBTYwBVZCJseuHr7ABUYy51goGss4OttIWutV6VnwFaaCJue+Hr7VmRm/z9/f///7jQ1AVcayFue/j6+9Xj5s/f4s/g4s7f4ufv8Pn7+9bk5uPs7uDq6y11gg1icA5icA9jcQ1hb4iwtzF3hAxhb3Khqt7o6h9reQ5hbxNlchNkcgZcaoCqsiNuewZca2mbpB9seZq7wdLg48/e4czd4D+CjQRbapa4v87d4ESFkAlebL7T106LlrnQ1FSPmQhebNHh487f4c/f4Za5v9Lh483e4RFkchFkcQVbagxgbwVcauDq7DB3gxBjcRJkcomwt+Ts7jN5hQ9icHSiq9Ti5c7e4efu8NXj5eLr7YuxuHqmrnunr73S1u/09Y2zuXmmrrHKz93o6h9qeICpsSNtemiaowFZaDV6hkiHkkeGkUaGkRVndBdodQhdbLjP0/r8/Pf5+vT3+EuKlLPM0PX4+VGOmAJaaXyosHqnr1iQmihyfx9qdyNseebu8FuTnUKEj6LBxl6VnkGDjpG2vP7+/vj7+/v8/fv8/HCgqTJ4hJi6wJy9w2qcpSNvfOPs7a3IzQpebVaPmZW5v0ODjjt9iTt+idrm6PY9g7oAAAA3dFJOUwAAAiBJV1ZTNQsHadXz9vbpoyRh9LMUxfdeL+eI7Ysw6IoZzfpndPvCHA2D5vr7+/S7NAY2Y0+LpXQ2AAAAAWJLR0QB/wIt3gAAAAd0SU1FB+gFFg41I4GZKrIAAAJLSURBVFjDY2BgZGJmYWUjA7Cyc3AyMjAwcnHz8PKRBfgFBIUYGRiFRcwtLK3IAJbWNraiYgxi4nb2Do7kASdnCUkGKWkXR1cygZu7hwwDh6ynF5kOcPT28ZUDGuDnH0AmCAwKBhkQEko2CAsHGRARGUUmiI6JBRkQF+/oTRZISEhMAhkQmJySmkYGSM/IzMoGG+CVk5tHDsgvKBxsBhQVl5SigrLyvLyKSgzRKhwGVNfU1qGA+obGvLyqJnTR5hYcBrS2ubV3dCKBLsfuvLykHrcGFNHehD5cBvT3Tpg4CQEmT/EGGzB1GrLo9BnJuA2YOQs5kHJnJ4MN6J2DLBo+Nx63AfNGDRg1YFAYQHFS7p0wfwEcLIRnpkWLkUSX4MlMbW7NS5HAsuXQ7LwCWXTpSpzZedXqNSgql65dsy4vb/0GdNGNm3AYULR5ywJUsGUrsEjbhiG6HYcBpALqGxC8Y+cuVLBzd17enr3oovv24zDgwMGEhGRk4JhwKC/P9zC6aPIRnOng6LHjJxDg5ClINLpuQBE9jadUPnP23HkEuHARmhIvIYtevjKoM9OoAaMGDI5S+arFtesIsM/dAWzA0RvIojtv4syNB255e6Pk/IRkUHlwG100Hld5cOfuvRmo4N79vLzYB+iiDx/hMOBxRdETVFD0FKvoMxwGkAoGhQHADoe8wvPkFy8nkAFevT765q0ig5Lyu/eOTm7kAMeEDyqqDIxq6h8/ff5CFoj7qqHJwKilraOrRxbQNzA0AnXfjU1MVckDZmKMjAB5DatncYejsQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAASUVORK5CYII={scale="+$scale+"}>"
+!endfunction
+
+
+OCIEntityColoring(oci_BlockStorage)
+!define oci_BlockStorage(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_BlockStorage, oci_BlockStorage)
+!define oci_BlockStorage(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_BlockStorage, oci_BlockStorage)
+!define OCI_BLOCKSTORAGE(_color)                                 SPRITE_PUT(                                    oci_BlockStorage, _color)
+!define OCI_BLOCKSTORAGE(_color, _scale)                         SPRITE_PUT(                                    oci_BlockStorage, _color, _scale)
+!define OCI_BLOCKSTORAGE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, OCI BLOCKSTORAGE,         oci_BlockStorage, _color, _scale)
+!define OCI_BLOCKSTORAGE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, OCI BLOCKSTORAGE,         oci_BlockStorage, _color, _scale, _shape)
+!define OCI_BLOCKSTORAGE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, OCI BLOCKSTORAGE, _label, oci_BlockStorage, _color, _scale, _shape)
+skinparam folderBackgroundColor<<OCI BLOCKSTORAGE>> White

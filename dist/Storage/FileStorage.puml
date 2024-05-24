@@ -1,0 +1,23 @@
+'Image contente are Copyright Oracle, Inc. or its affiliates. All Rights Reserved. 
+
+
+sprite $oci_FileStorage [64x64/16z] {
+xTO5ZiGm341H1utItl-qmuors-KyGV47X87vSkiXBSDM4GlIkkrnSnDYHjkUB8otVUSmX0NK7jQMs3-PK8WS-mOXxIVrew_4PzIzVL6xqfrzDMbdg5gzFSC5
+CYdkll11WSGc_4nxqbSxg01epsbvtATsaA2gKNj2h3ti4vnaEJ_UuSUzyfcOP73sLwI0jvTMppAuUuOx_wCV_UX7F_eyqPDU9tlOgyE3FXM7z8FEJwF778Bx
+lfi66MxxHD6UCkpa85Z0nqnh
+}
+
+!function $oci_FileStorageIMG($scale=1)
+!return "<img data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAKpUExURf///wAAAP////////////////////////////////////v8/fv8/P////////////////////////r7/Pf5+v////////b5+fH19v////////j6+vT3+P////7+/v7+/vr7/Pf5+vf5+fL29/////7+/vz9/f////////////////////////////H29v///////////////////////////////////8bZ3Iiwt32qsoewt8PX27HM0BdndQBWZgBWZRVmdKvIzViQmgBVZABYZwBZaABVZU2Jk0qGkQBUYwBXZgBUZDt8iHCfqDJ4hDV6hmSXofX4+PH19vT3+Jy9w3Giq3OkrJS4vkqGkABTYwBTYjt8h0qIkilyf06KlU2JlDt+ioSutv39/fn6+4exuP7+/vf6+vX4+fn7+56/xUeHkj+BjUCCjUGDjn6qse3y877T1xFjcQJYZ3Chqff5+pm6wCFue4uyuZO4vpS4v12UngNZaAldbJe6wJi6wD1/ivL29/z9/fT4+Ozy81CMlhtpdrnQ1PP39/D19vb4+bzT1zN6hjJ5hjJ6hrjR1dbk5jF4hBlodjJ5hZW5wPf5+avHzAFWZqbEyfv8/GSZowxfbrPN0dvn6ZC1vJC1u9jl56fEyhBicVKNl4+0u4ivtjl8iOXt7vP29/X3+MLW2UGCjeTt7j1/i4Wvtg1hbzh8iDt+iTx+iiBseSZwfcvc3xtqeK3IzSRvfJK3vpm9w5m8wpy+xMzd4DF3hMbY3NHg4tDf4gRbahNkchRlc5u8wghebAdebAZdbARcaomyueXu78DW2b/V2eHr7UuHkmicpc7e4cvd32mcpT5/inCgqQZcaw9icA9icWeao06LlRNlcxRmdEiGkdXj5dXj5tLh49Lh5O/09YMcTSEAAAA3dFJOUwAAB2LR+vvUZglk8fNsASLaKE7091lX9vtoVvb7Z/b79vv2+0Lv8ksRtrwUNcr+zjkfa5CSkW0cmWGsAAAAAWJLR0QAiAUdSAAAAAd0SU1FB+gFFg41I4GZKrIAAAIDSURBVFjDY2BgYmZhNScLsLFzcDIwMHBxW1hakQWsbXh4+Rj42W3t7B3IAvaOTgKCDELCzi6ubmQBV3cPEVEGMXFPL28ygY+vhCSDlLSffwCZwD9QRpZBSi4omGwQIg80QCE0LJxMEBahCDRAPDLKJzqKDBDtExUjATIg1j0uPoEMEB/nkAgxwCspOYUMkJzkAzMglbyknDpqAIYBaekhCJCRTLIBmVnZOblwkJdfQKoBhUUu7i5w4FNcUkqiAWXe5RWVMFBVXVNbl0aaAfUODY1NzVDQ1NLq3tbe0YkdBKXhMKCru6e3DwR6+s0nTLSf1NOHFUzOnZKO3YCp06a7g4HDDPOZs+wd3LEDB/fZc7AbEDJ33nwIWGC+cJHr4nlLsIKl5S7W2AywX7Z8xUooCFlV7rJ6DY7Aa1zrtQ6bAa7rNyRuhIJNm923bMUV+o0NOAxwRfKn/bbt5qQa4L1j567dMLBnbxPJBgDTAeH0P2rAqAGjBowaMEIM8N63/8BBIsCB/RN9sBfrhw4fIQocPuSAzYCjx46fIBIcP3kKiwGnzxAPzp7DYgDpYNQAqhiwEWiAmNJ5nwsXL5EBLl72uaLMwaCietXl2nVywI1rLjfV1Bk0NOfecrxNFrhz956WNgODjq7e/QcPyQAP7j3SNwB2vhkMjYxNyAKmZvxA7YwUAgBNoR4wbsAbTQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAASUVORK5CYII={scale="+$scale+"}>"
+!endfunction
+
+
+OCIEntityColoring(oci_FileStorage)
+!define oci_FileStorage(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_FileStorage, oci_FileStorage)
+!define oci_FileStorage(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_FileStorage, oci_FileStorage)
+!define OCI_FILESTORAGE(_color)                                 SPRITE_PUT(                                   oci_FileStorage, _color)
+!define OCI_FILESTORAGE(_color, _scale)                         SPRITE_PUT(                                   oci_FileStorage, _color, _scale)
+!define OCI_FILESTORAGE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, OCI FILESTORAGE,         oci_FileStorage, _color, _scale)
+!define OCI_FILESTORAGE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, OCI FILESTORAGE,         oci_FileStorage, _color, _scale, _shape)
+!define OCI_FILESTORAGE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, OCI FILESTORAGE, _label, oci_FileStorage, _color, _scale, _shape)
+skinparam folderBackgroundColor<<OCI FILESTORAGE>> White

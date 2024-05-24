@@ -1,0 +1,23 @@
+'Image contente are Copyright Oracle, Inc. or its affiliates. All Rights Reserved. 
+
+
+sprite $oci_Auditing [64x64/16z] {
+xTDLiaCX44NHnccfklCVxPEuo-busFyBX_o511Rcl2kOf7zVJGLAhV_xPYr05PE59wYyuMDEV-M8-gQp2kgxgOXQnNqBWHt-dxfypraytbGDzrNuBocefp2B
+KBy8yroGSbjwk8LNXX8Jp_ybz_zzBJzyQ9TKZ_gaTa5or8VQBgZSPV_33n_AqSA6Gzv_kiJ7VhHusYCDB-po50Bi5xsM3ss_T94__lxBG-R76xuQktnadwSG
+wNbDay__0W
+}
+
+!function $oci_AuditingIMG($scale=1)
+!return "<img data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAJPUExURf///wAAAP////////////////////////////////////////3+/v////////////////////////////T4+P////////v8/P///////////////////////////////////////////////////////////////////////+nw8bzS1q/Kz7DLz7DKz7XO093o6tnl6EKDjgddawJaaQRbaidxfrfP03imrgBVZAtfbh9seSBseiBtehJkckaFkFiRmwBTY1qSm93n6eHq7ISttQBXZil0gOvy81eRm2qcpf/+/v///5q7wf3+/sja3avHzK3IzKzHzNXi5fr7/FqRmwFZaANaaYKss1aPmQBVZQ9icB5seQddbABWZX+qsWqepuPs7djl5zd9iABUZICqsnmosPf5+j+CjQBUY1GNl6TCyCp0gFaOmABYZ3+psfv8/HWjqytzgC52gi51gix0gZe5v/7+/vH19urw8urx8vT3+D6Ai5a6wJm7wVuSnBRlczF4hDJ4hB1reGKWoOvx8u/09Y6zutnm6Gqep2Wao2WbpGOZo4Css/T4+MDU2AhYZwBTYgBRYSxxfu3z9Nrm6G6ep2ibpGmbpGeao4OttOHr7YmxuIWutYWutoavtsDV2AhaaAJVZa3IzdLi5EuJlE2KlcXZ3f39/vj6+/j6+v39/SlzgKTCxxdoddzo6uLs7vz9/WGXoGKXoGCVn7jQ1AhZaIuxuNfl52SZol+Wn12VnrbP02SYoXSjq0CCjdHg4z2Ai/H29t/q7MPX235FuM8AAAAqdFJOUwAALZTL08+nRwQ40uhdDrLYKTTo+2ZF8nhGNuoRuUDbATKQvsFbAwoLBaPHIv8AAAABYktHRACIBR1IAAAAB3RJTUUH6AUWDjUlaPqPhwAAAcNJREFUWMNjYGBgYmZhJQuwsXNwMjAwcHFraevokgH09A14eBkY+PgNjYxNyAKmZuYCggxCwhaWVtY2ZABbO0t7EVEGMXEHRydnAzKAi6ubu4cEg6S4p6OXtw85wBdsgBjYAD//gEAgCAom14CQ0DDT8HBTkwiyDYiMiraNiY2LJ98Ax4TEpOSUVAoMSPNJz8ikwIDMrKDsHEvyDchNyQsLc7PMJ9eAgsKi4pKS4tIycg0or6isAoLKanINIEUfpgEpNbXkgLp6txyIAXF5cWQBN5gBUQ2N5ICmZpgBji2t5IC2dqoFoqNX+agBg8eAjs6uboKgp7cPpwH9EyYSBpMmT8FpwNRp02cQBDNn4XZBOZFgEMfCqAGDwYDZc+bOww7mJxFlwIKFmTjAosVEGbAkaykOsGw5UQasWLlqJQ6weojEAqkGxK2hzIC16zKmUGRAxfoNGykyAASobED5akxQTooBSTM3bUYDW7aSYkD/tomOaGDSdlIM2LFzFzrYvYeuYUBxLJBlAAV9JpgLHBz3rqbAACnpfRP3k9TGRjNARvZA48FDFBjAICd/+EgIJQYoKCopq5ANVBkYGRnU1DXIBpoA1gz6i171XIoAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAAElFTkSuQmCC{scale="+$scale+"}>"
+!endfunction
+
+
+OCIEntityColoring(oci_Auditing)
+!define oci_Auditing(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_Auditing, oci_Auditing)
+!define oci_Auditing(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_Auditing, oci_Auditing)
+!define OCI_AUDITING(_color)                                 SPRITE_PUT(                                oci_Auditing, _color)
+!define OCI_AUDITING(_color, _scale)                         SPRITE_PUT(                                oci_Auditing, _color, _scale)
+!define OCI_AUDITING(_color, _scale, _alias)                 SPRITE_ENT(  _alias, OCI AUDITING,         oci_Auditing, _color, _scale)
+!define OCI_AUDITING(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, OCI AUDITING,         oci_Auditing, _color, _scale, _shape)
+!define OCI_AUDITING(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, OCI AUDITING, _label, oci_Auditing, _color, _scale, _shape)
+skinparam folderBackgroundColor<<OCI AUDITING>> White

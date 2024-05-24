@@ -1,0 +1,26 @@
+'Image contente are Copyright Oracle, Inc. or its affiliates. All Rights Reserved. 
+
+
+sprite $oci_CustomerPremisesEquipmentCPE [64x64/16z] {
+fPS7qYif38H1GaBgllzzTstgrM3CxqHNS9ZvY8hbM68_Isvuy6U5b694nazAq6vyrlAJQWu-obQYPjwxcwcKhU9Flge70Du585phvxnOuCPbthUPznzXyXbV
+FKcYcuhK_oMYra4olNx0joGHJPObjG2PxHql3gAtib7h85nUyXfajbgsghUbXRxWDOakCoEFlpgOkk4ltCe3a2bbbeq1DlmM3p8s0spv6aHxmdS3HDtn_hnu
+tlMy1T_m3Uphx0WWiAwW4-s9hxdCKuDmpLG7eoxhohholcw-6Bm88CLXYoM1ll2IxAlPQ2qAQAcw6b9doYDlO_f5WtzM0-s1hy4e7_CtCkhCAzY-uHkXC--4
+VCCBw3CVxEiPFVBhsNR6n0kuNb7Qp5kkbql8nI_B7CPZ5pziVjtOnHicsvjzSV33vnRVW4qy1xyECEnlu2lFYVUnl2fwoK6O0ceWN2z97HlqY--3TymYYGxq
+-vTPFlX-of-k__JyJk_lr7vExVVSVyxzzpn-dCUly_YvZz_r7rztyVjj_cYXWzTec_pnDdybKs-y9dEJlzxcJmFJ0K_2DldpVVus400sV_k-VjYyIMx-ZFfX
+_M8O-4Vrotw0BVvv_TRQfduxh1_FwzVp-lcyVZ_l7yxxbzF-wRn_E-qVJ_lNq_xvMFy1
+}
+
+!function $oci_CustomerPremisesEquipmentCPEIMG($scale=1)
+!return "<img data:image/png;base64,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{scale="+$scale+"}>"
+!endfunction
+
+
+OCIEntityColoring(oci_CustomerPremisesEquipmentCPE)
+!define oci_CustomerPremisesEquipmentCPE(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_CustomerPremisesEquipmentCPE, oci_CustomerPremisesEquipmentCPE)
+!define oci_CustomerPremisesEquipmentCPE(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_CustomerPremisesEquipmentCPE, oci_CustomerPremisesEquipmentCPE)
+!define OCI_CUSTOMERPREMISESEQUIPMENTCPE(_color)                                 SPRITE_PUT(                                                    oci_CustomerPremisesEquipmentCPE, _color)
+!define OCI_CUSTOMERPREMISESEQUIPMENTCPE(_color, _scale)                         SPRITE_PUT(                                                    oci_CustomerPremisesEquipmentCPE, _color, _scale)
+!define OCI_CUSTOMERPREMISESEQUIPMENTCPE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, OCI CUSTOMERPREMISESEQUIPMENTCPE,         oci_CustomerPremisesEquipmentCPE, _color, _scale)
+!define OCI_CUSTOMERPREMISESEQUIPMENTCPE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, OCI CUSTOMERPREMISESEQUIPMENTCPE,         oci_CustomerPremisesEquipmentCPE, _color, _scale, _shape)
+!define OCI_CUSTOMERPREMISESEQUIPMENTCPE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, OCI CUSTOMERPREMISESEQUIPMENTCPE, _label, oci_CustomerPremisesEquipmentCPE, _color, _scale, _shape)
+skinparam folderBackgroundColor<<OCI CUSTOMERPREMISESEQUIPMENTCPE>> White

@@ -1,0 +1,25 @@
+'Image contente are Copyright Oracle, Inc. or its affiliates. All Rights Reserved. 
+
+
+sprite $oci_InternetGateway [60x64/16z] {
+fDHLWkOm30DWsI73mlrFkp0QIhdzzLJw6lRl_U0jlvy4O1xIMecVq0ZY9pIJ-16zZMbRn70V4Ots1XNBhkxQq-G6nbkqGjm5LNb_Wq9K_rjL0NCLQktcuxyT
+RhtgYk_ICZmpWZOYqqSvnvIHOQqenokbMMHG7qlfaT7Pp7_BZhmz5EfTgfOn59Wje2FIb7YllvvUWTaorTFPxrrgYcqBjLrCEWHx5ZA8jwWOwRObvWPTsvwk
+EB9GpxwsFEa5nnObegum3mxEB7Yiriswd5jnDZnRouPpYvQsiXgkLwnwAB2Sv84h5eDJFNUvJkoxdNvGlpeDHdtgiemk7rRw85v_oPHmcMwp2wtqZ3BFT5bO
+wzDzZUoqFQFEIsnVLZRJuwF6HfVD053ppKIojcVuPanViQ_r-M_fTMm40111GNJczr_qNIY35ua1kr0hwP7C1imax0Bi8Em-t1ouTN1ZuRRBJpd-ilmeFnH-
+Dp23iSgSaL8PITWCc11O51WOs1kO7rp37CVToftENL8SzW4
+}
+
+!function $oci_InternetGatewayIMG($scale=1)
+!return "<img data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAABACAMAAABxwuT6AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAK7UExURQAAAP////////////////////////////r7+/////f5+f////n6+v////////n6+/////////P29/////////////////v8/P////////////z8/f////////////////n6+v////////////L09f////////f4+f///////////////////+Tp6/////7+/v7+/v////////////3+/v////////////7+/v////////7+/v////////////////T29/T29/////3+/v///+jt7v////3+/vH09P////////X39/////////////////////////////////////j5+v////7+/qy9w6S3vTtlcqO2vD1mcypXZaO3vTpkcSxZZy5aaJ+zujFdanGPmUZteebr7WKDjoykrNPd31N3g8jU16W4vvL19uXr7FF2gubs7c/Z3Nri5OTq61F3gtrh5KS3vnyYoWKDjURseHSRmsXS1XiVnkZtei5baShWZDZgbjxmc3qWnzdhb8LP03SSmzhibypYZjxlcmWGkI+nr7rJzvf5+dzk5r7M0Y2lrT9odYagqO7x8////8rV2WOEj3iUntDa3fb4+cHO0kpwfClXZU90gLLCx/f4+cDN0ktxfWeIkv7+/sTR1UlwfGuLleHn6d/l6Ft+iWuKlePp64GbpFR4hNbf4rTEyThicLnIzf39/SpXZoafqPr7+7LDyDNebEhve5ettPv8/DZhbkZuetbf4XuXoPT292CBjC1aaKe6wOvv8V+BjNjg40Vtec/Z3d/m6HKQmYmiqu3w8szX2jVgbVN4g+nt78DN0T9odIegqO3x8ufs7lJ3gmeHkYukq/n6+y9baYSepu7y8+jt7uTq7OXq7OHo6dHb3lJ3g9Td32eIkVF2gU1zfzFdazBcam2MlsrV2ATZOWIAAABYdFJOUwAAFZqR9RKT95X5F/YUl/gYmPktzg1i7R1Sz/wBHG+89Q5gyfYxofKcLgJQyv4D4+BaBFzfZAVV61c40zatqXH19ijciPsr0voyVv0Gh69Famtz2qX+pufHSBJtAAAAAWJLR0QB/wIt3gAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAAd0SU1FB+gFFg41JWj6j4cAAAOfSURBVEjHY2DADRiZmJmZGBnIAoxMLKysLOTpZmRj54iI4GBnI0M3IxMnV2RUVCQXJ+l2M3Jz8kTHxMbGRPNwcpOom5GXjz8uPiExMSE+jp+PlzTdAoJCSfHJKampKcnxSUKCAiRZLCySlp6YkZmVlZmRmJ4mIky81YyMjKJi4tk5uXn5+Xm5OdniYqJAIWL1SkiySEkXFBYVl5QUFxUWSEuxSEoQo5uRUUZWTl6htKy8orIKpLmqsqK8rFRBXk5WhpB+RkZFJWWV6prauvqGxiaQ5qaY5vq62ppqFWUlUQK6GVXV1Fta29o7Oru6i3pAmnt6+7o6O9rbWlvUNTTxaWbU0tbR7Z8QO2Fiy6TJQADSDKIntUwECvbr6mhr4dTOqKekP2VqQvO06TMmT0bWPHnyjOnTmhOmTjEw1MOhm9HI2GTmrNlz5s6bPBld8+TJ8+bOmT1rpompGVbdjDLm+vMXtC+cvmgyNs2TF01f2L5gvoWlDDbdMlbWi5fELl02eTJ2zZMnL1sau2SxtQ0WzYwCtstXzF65ajJuzZNXrZy9YrkdlixqZu+wun3N2sn4NE9eu6Z9taO9GYbFTs7r1sds2Ihf88YNMevXOTuhW63n4tq5afOWyfg1T96yeVOnq4semsVu7lu3be+dTEjz5N7t27a6u6FaLWPv0ZmwYydhzTt3JHR62MugaOa1nbJr957JhDVP3rN71xRbXhRXexpkxO7dR4zmfXtjMww8kd0t4+W9/8BBZDWHchGacw8hyxw8cNjbSwaWg4HAx/fIgqPHkFQcP3HyFEzzqZMnjiNJna5ccMTXB6yNQUYLCBT9Npw5ew5JxfkLiRcvQTRfuph44TyS1OUrZzb4KYJ0yTD4BwQGBgQFV1+9tghJxfWDMTdu3gIVgLdu3og5eB1JatG1q9XBQSBd/gwhobfv3L17907xnby7CJB3r//MjYn3Hzy4P/HGmf57KFJApSANt0NDGMIePnp8BROcffJ007PntbXPn216+uQsFgWPHz0Mo0wzRc6mKMDgUXXlMulRBU8kladJTySw5HmYnORJecagKEtSVhhQVAxRVABSVvRSVOhTVt0QV9HNeoG1ogNWsZYWhKvYcC8Z7BW0mSnhyl3JCFfTQM/QAH+zQl9JD3ejhIIGDQPWplRRN3FNKayNuMYGYhtxFDUfIfrJbbhCdJPfZGagqLHOQFk3gbIOCkVdI8o6ZZR1BynriBLRBQYARYlu/WpADlQAAAAASUVORK5CYII={scale="+$scale+"}>"
+!endfunction
+
+
+OCIEntityColoring(oci_InternetGateway)
+!define oci_InternetGateway(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_InternetGateway, oci_InternetGateway)
+!define oci_InternetGateway(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_InternetGateway, oci_InternetGateway)
+!define OCI_INTERNETGATEWAY(_color)                                 SPRITE_PUT(                                       oci_InternetGateway, _color)
+!define OCI_INTERNETGATEWAY(_color, _scale)                         SPRITE_PUT(                                       oci_InternetGateway, _color, _scale)
+!define OCI_INTERNETGATEWAY(_color, _scale, _alias)                 SPRITE_ENT(  _alias, OCI INTERNETGATEWAY,         oci_InternetGateway, _color, _scale)
+!define OCI_INTERNETGATEWAY(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, OCI INTERNETGATEWAY,         oci_InternetGateway, _color, _scale, _shape)
+!define OCI_INTERNETGATEWAY(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, OCI INTERNETGATEWAY, _label, oci_InternetGateway, _color, _scale, _shape)
+skinparam folderBackgroundColor<<OCI INTERNETGATEWAY>> White
