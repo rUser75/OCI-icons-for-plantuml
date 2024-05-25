@@ -13,7 +13,7 @@ ZoA2o284B8VXrlaRgNdbb8rxpyMejpw1tzS3e3uSyblz0G
 !endfunction
 
 
-OCIEntityColoring(oci_BYOIP)
+OCIEntityColoring(oci_BYOIP,$OCIColor(Networking))
 !define oci_BYOIP(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_BYOIP, oci_BYOIP)
 !define oci_BYOIP(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_BYOIP, oci_BYOIP)
 !define OCI_BYOIP(_color)                                 SPRITE_PUT(                             oci_BYOIP, _color)

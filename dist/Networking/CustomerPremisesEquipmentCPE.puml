@@ -15,7 +15,7 @@ _M8O-4Vrotw0BVvv_TRQfduxh1_FwzVp-lcyVZ_l7yxxbzF-wRn_E-qVJ_lNq_xvMFy1
 !endfunction
 
 
-OCIEntityColoring(oci_CustomerPremisesEquipmentCPE)
+OCIEntityColoring(oci_CustomerPremisesEquipmentCPE,$OCIColor(Networking))
 !define oci_CustomerPremisesEquipmentCPE(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_CustomerPremisesEquipmentCPE, oci_CustomerPremisesEquipmentCPE)
 !define oci_CustomerPremisesEquipmentCPE(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_CustomerPremisesEquipmentCPE, oci_CustomerPremisesEquipmentCPE)
 !define OCI_CUSTOMERPREMISESEQUIPMENTCPE(_color)                                 SPRITE_PUT(                                                    oci_CustomerPremisesEquipmentCPE, _color)

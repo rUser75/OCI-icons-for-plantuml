@@ -16,7 +16,7 @@ PEAcx-T7T7py83VcH_pg_ibunugBUE9lj_JYjpDP-8ST_Ty
 !endfunction
 
 
-OCIEntityColoring(oci_RouteTableandSecurityList)
+OCIEntityColoring(oci_RouteTableandSecurityList,$OCIColor(Networking))
 !define oci_RouteTableandSecurityList(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_RouteTableandSecurityList, oci_RouteTableandSecurityList)
 !define oci_RouteTableandSecurityList(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_RouteTableandSecurityList, oci_RouteTableandSecurityList)
 !define OCI_ROUTETABLEANDSECURITYLIST(_color)                                 SPRITE_PUT(                                                 oci_RouteTableandSecurityList, _color)

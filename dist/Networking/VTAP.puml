@@ -16,7 +16,7 @@ gc6xypgyxBGLN7nJt6dMCdRXZsv5_rprfKKRJlfMz8u__t1avqdVYjtt_k1bAZRqw4m3TyzxqOe-ua1D
 !endfunction
 
 
-OCIEntityColoring(oci_VTAP)
+OCIEntityColoring(oci_VTAP,$OCIColor(Networking))
 !define oci_VTAP(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_VTAP, oci_VTAP)
 !define oci_VTAP(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_VTAP, oci_VTAP)
 !define OCI_VTAP(_color)                                 SPRITE_PUT(                            oci_VTAP, _color)

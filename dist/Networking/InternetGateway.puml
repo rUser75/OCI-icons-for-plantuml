@@ -14,7 +14,7 @@ Dp23iSgSaL8PITWCc11O51WOs1kO7rp37CVToftENL8SzW4
 !endfunction
 
 
-OCIEntityColoring(oci_InternetGateway)
+OCIEntityColoring(oci_InternetGateway,$OCIColor(Networking))
 !define oci_InternetGateway(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_InternetGateway, oci_InternetGateway)
 !define oci_InternetGateway(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_InternetGateway, oci_InternetGateway)
 !define OCI_INTERNETGATEWAY(_color)                                 SPRITE_PUT(                                       oci_InternetGateway, _color)

@@ -15,7 +15,7 @@ hqJ4zv6-yYJN-8r_x0y
 !endfunction
 
 
-OCIEntityColoring(oci_IPPools)
+OCIEntityColoring(oci_IPPools,$OCIColor(Networking))
 !define oci_IPPools(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_IPPools, oci_IPPools)
 !define oci_IPPools(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_IPPools, oci_IPPools)
 !define OCI_IPPOOLS(_color)                                 SPRITE_PUT(                               oci_IPPools, _color)

@@ -1,33 +1,34 @@
-!define TECHN_FONT_SIZE 12
+!define TECHN_FONT_SIZE 10
+skinparam defaultTextAlignment Center
 !define OCI_BG_COLOR #FFFFFF
 !$OCI_BG_COLOR = "#FFFFFF"
 !$OCI_FG_COLOR = "#000000"
 !$OCI_ARROW_COLOR = "#000000"
 !$OCI_COLOR_GRAY = "#7D8998"
+!$OCI_DEFAULT_COLOR = "#7D9800"
 
 
 !procedure $OCI_common_skinparam()
-    FontColor $OCI_FG_COLOR
-    BackgroundColor $OCI_BG_COLOR
-    BorderColor $OCI_COLOR_GRAY
+'    FontColor $OCI_FG_COLOR
+'    BackgroundColor $OCI_BG_COLOR
+'    BorderColor $OCI_COLOR_GRAY
 !endprocedure
 
-!definelong OCIEntityColoring(stereo)
+!definelong OCIEntityColoring(stereo,$border_color=$OCI_DEFAULT_COLOR)
 skinparam rectangle<<stereo>> {
     $OCI_common_skinparam()
-    BorderThickness 1
+    BorderColor $border_color
+    BorderThickness 3
 }
 !enddefinelong
 
-
+' object description
 skinparam rectangle {
     StereotypeFontSize 12
     $OCI_common_skinparam()
-    BorderThickness 2
+    BorderThickness 1
+    BorderColor #FF00FF
 }
-
-
-
 
 
 !procedure $OCIGroupColoring($stereo, $border_color=$OCI_FG_COLOR, $border_style="plain")
@@ -39,7 +40,7 @@ skinparam rectangle {
     BorderStyle $border_style
     RoundCorner 12
     Shadowing false
-    BorderThickness 2
+    BorderThickness 3
     LineStyle 4
   }
 !endprocedure
@@ -64,13 +65,48 @@ skinparam rectangle {
 !return %call_user_func("$" + $service + "IMG", "0.4")
 !endfunction
 
+/'
 !definelong OCIEntity(e_alias, e_label, e_techn, e_color, e_sprite, e_stereo)
 rectangle "==e_label\n$OCIImg(e_sprite)\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//" <<e_stereo>> as e_alias
 !enddefinelong
+'/
+
+!definelong OCIEntity(e_alias, e_label, e_techn, e_color, e_sprite, e_stereo)
+rectangle "==e_label\n$OCIImg(e_sprite)\n//<size:TECHN_FONT_SIZE>[e_techn, category]</size>//" <<e_stereo>> as e_alias
+!enddefinelong
+
+
+' for network devices
+!definelong OCIEntity(e_alias, e_label, e_techn, e_color, e_sprite)
+rectangle "==e_label\n$OCIImg(e_sprite)\n//<size:TECHN_FONT_SIZE>[e_techn,$category]</size>//"  as e_alias
+!enddefinelong
+
 
 !definelong OCIEntity(e_alias, e_label, e_techn, e_descr, e_color, e_sprite, e_stereo)
 rectangle "==e_label\n$OCIImg(e_sprite)\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//\n\n e_descr" <<e_stereo>> as e_alias
 !enddefinelong
+
+
+
+!$OCI_CATEGORY_COLORS = {
+  "networking": "#8C4FFF",
+  "storage": "#7AA116"
+}
+
+
+' returns color based on OCI  icon category name
+!function $OCIColor($category)
+!$category = %lower($category)
+!if %json_key_exists($OCI_CATEGORY_COLORS, $category)
+!return $OCI_CATEGORY_COLORS[$category]
+!else
+!return $OCI_DEFAULT_COLOR
+!endif
+!endfunction
+
+
+
+
 
 
 
@@ -138,4 +174,3 @@ Creates an aliased labeled entity with a sprite and stereotype
 ........................................
 '/
 !define SPRITE_ENT_L(e_alias, e_stereo, e_label, e_sprite, e_color = "Black", e_scale = "1", e_type = "rectangle") e_type "<color:e_color><$e_sprite{scale=e_scale}></color>\r e_label" as e_alias <<e_stereo>>
-

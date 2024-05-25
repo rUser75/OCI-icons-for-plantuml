@@ -12,7 +12,7 @@ NorwGe_ASrzSm_ffZs1T8vrzrgfXohHtgXK_eD_zxdSFMOyK6sdUvzWgPp-QzJHuxaEPy7rlSXabjT3q
 !endfunction
 
 
-OCIEntityColoring(oci_Backbone)
+OCIEntityColoring(oci_Backbone,$OCIColor(Networking))
 !define oci_Backbone(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_Backbone, oci_Backbone)
 !define oci_Backbone(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_Backbone, oci_Backbone)
 !define OCI_BACKBONE(_color)                                 SPRITE_PUT(                                oci_Backbone, _color)

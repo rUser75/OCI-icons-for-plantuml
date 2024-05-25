@@ -18,7 +18,7 @@ DZ_drtKCIp9E2o3hsQnzjZFUr7ZONmq0o2kD_PvurcvhEPvFtcFCIZtU-k4KtlRRU_y
 !endfunction
 
 
-OCIEntityColoring(oci_VirtualCloudNetworkVCN_red)
+OCIEntityColoring(oci_VirtualCloudNetworkVCN_red,$OCIColor(Networking))
 !define oci_VirtualCloudNetworkVCN_red(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_VirtualCloudNetworkVCN_red, oci_VirtualCloudNetworkVCN_red)
 !define oci_VirtualCloudNetworkVCN_red(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_VirtualCloudNetworkVCN_red, oci_VirtualCloudNetworkVCN_red)
 !define OCI_VIRTUALCLOUDNETWORKVCN_RED(_color)                                 SPRITE_PUT(                                                  oci_VirtualCloudNetworkVCN_red, _color)

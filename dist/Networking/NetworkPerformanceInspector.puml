@@ -21,7 +21,7 @@ Y-B_jTs___fVyDPV9lmF_k-h_GC
 !endfunction
 
 
-OCIEntityColoring(oci_NetworkPerformanceInspector)
+OCIEntityColoring(oci_NetworkPerformanceInspector,$OCIColor(Networking))
 !define oci_NetworkPerformanceInspector(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_NetworkPerformanceInspector, oci_NetworkPerformanceInspector)
 !define oci_NetworkPerformanceInspector(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_NetworkPerformanceInspector, oci_NetworkPerformanceInspector)
 !define OCI_NETWORKPERFORMANCEINSPECTOR(_color)                                 SPRITE_PUT(                                                   oci_NetworkPerformanceInspector, _color)

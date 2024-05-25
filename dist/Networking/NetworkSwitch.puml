@@ -13,7 +13,7 @@ LvI72vLc-UP0SY7dwSSHRDggFiXws-yV
 !endfunction
 
 
-OCIEntityColoring(oci_NetworkSwitch)
+OCIEntityColoring(oci_NetworkSwitch,$OCIColor(Networking))
 !define oci_NetworkSwitch(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_NetworkSwitch, oci_NetworkSwitch)
 !define oci_NetworkSwitch(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_NetworkSwitch, oci_NetworkSwitch)
 !define OCI_NETWORKSWITCH(_color)                                 SPRITE_PUT(                                     oci_NetworkSwitch, _color)

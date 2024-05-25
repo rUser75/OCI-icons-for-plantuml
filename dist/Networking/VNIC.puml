@@ -16,7 +16,7 @@ GS3A77AaoMQW6I6DGv8XixDFlteGHwIhwjttc-zdRuzKhZvnhKhbbWwquy10IKENWUMVcrxCRIMFp5Nc
 !endfunction
 
 
-OCIEntityColoring(oci_VNIC)
+OCIEntityColoring(oci_VNIC,$OCIColor(Networking))
 !define oci_VNIC(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_VNIC, oci_VNIC)
 !define oci_VNIC(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_VNIC, oci_VNIC)
 !define OCI_VNIC(_color)                                 SPRITE_PUT(                            oci_VNIC, _color)

@@ -16,7 +16,7 @@ xG40SSJufUiQqL5QT_TmzsuqL4l8oEK83lBZAtjj_W4
 !endfunction
 
 
-OCIEntityColoring(oci_NATGateway)
+OCIEntityColoring(oci_NATGateway,$OCIColor(Networking))
 !define oci_NATGateway(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_NATGateway, oci_NATGateway)
 !define oci_NATGateway(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_NATGateway, oci_NATGateway)
 !define OCI_NATGATEWAY(_color)                                 SPRITE_PUT(                                  oci_NATGateway, _color)

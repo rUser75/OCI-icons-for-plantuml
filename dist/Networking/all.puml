@@ -12,7 +12,7 @@ NorwGe_ASrzSm_ffZs1T8vrzrgfXohHtgXK_eD_zxdSFMOyK6sdUvzWgPp-QzJHuxaEPy7rlSXabjT3q
 !endfunction
 
 
-OCIEntityColoring(oci_Backbone)
+OCIEntityColoring(oci_Backbone,$OCIColor(Networking))
 !define oci_Backbone(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_Backbone, oci_Backbone)
 !define oci_Backbone(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_Backbone, oci_Backbone)
 !define OCI_BACKBONE(_color)                                 SPRITE_PUT(                                oci_Backbone, _color)
@@ -36,7 +36,7 @@ ZoA2o284B8VXrlaRgNdbb8rxpyMejpw1tzS3e3uSyblz0G
 !endfunction
 
 
-OCIEntityColoring(oci_BYOIP)
+OCIEntityColoring(oci_BYOIP,$OCIColor(Networking))
 !define oci_BYOIP(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_BYOIP, oci_BYOIP)
 !define oci_BYOIP(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_BYOIP, oci_BYOIP)
 !define OCI_BYOIP(_color)                                 SPRITE_PUT(                             oci_BYOIP, _color)
@@ -65,7 +65,7 @@ Xn7k_yOb5lUjrvAJaF-hGbEuEm0Lyh_7wZvWvF-4QNxAcVd_ZA-z_my
 !endfunction
 
 
-OCIEntityColoring(oci_ContentDeliveryNetworkCDN)
+OCIEntityColoring(oci_ContentDeliveryNetworkCDN,$OCIColor(Networking))
 !define oci_ContentDeliveryNetworkCDN(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_ContentDeliveryNetworkCDN, oci_ContentDeliveryNetworkCDN)
 !define oci_ContentDeliveryNetworkCDN(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_ContentDeliveryNetworkCDN, oci_ContentDeliveryNetworkCDN)
 !define OCI_CONTENTDELIVERYNETWORKCDN(_color)                                 SPRITE_PUT(                                                 oci_ContentDeliveryNetworkCDN, _color)
@@ -91,7 +91,7 @@ _M8O-4Vrotw0BVvv_TRQfduxh1_FwzVp-lcyVZ_l7yxxbzF-wRn_E-qVJ_lNq_xvMFy1
 !endfunction
 
 
-OCIEntityColoring(oci_CustomerPremisesEquipmentCPE)
+OCIEntityColoring(oci_CustomerPremisesEquipmentCPE,$OCIColor(Networking))
 !define oci_CustomerPremisesEquipmentCPE(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_CustomerPremisesEquipmentCPE, oci_CustomerPremisesEquipmentCPE)
 !define oci_CustomerPremisesEquipmentCPE(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_CustomerPremisesEquipmentCPE, oci_CustomerPremisesEquipmentCPE)
 !define OCI_CUSTOMERPREMISESEQUIPMENTCPE(_color)                                 SPRITE_PUT(                                                    oci_CustomerPremisesEquipmentCPE, _color)
@@ -121,7 +121,7 @@ OrzVj4lGNt0SM4Zo-6PpYmhwguMumAdXWjdwe-jRM728bFeJvK-lZu5_lxu6_eBy7m
 !endfunction
 
 
-OCIEntityColoring(oci_DomainNameSystemDNS)
+OCIEntityColoring(oci_DomainNameSystemDNS,$OCIColor(Networking))
 !define oci_DomainNameSystemDNS(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_DomainNameSystemDNS, oci_DomainNameSystemDNS)
 !define oci_DomainNameSystemDNS(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_DomainNameSystemDNS, oci_DomainNameSystemDNS)
 !define OCI_DOMAINNAMESYSTEMDNS(_color)                                 SPRITE_PUT(                                           oci_DomainNameSystemDNS, _color)
@@ -147,7 +147,7 @@ K2v4_KFSlz1W08DurB_4_HEZAE9n_nJtRue9z_gtk7zKk7ZKW7e7wcoQy2_wP_t0KvtmD_sxJFtxulom
 !endfunction
 
 
-OCIEntityColoring(oci_DynamicRoutingGatewayDRG)
+OCIEntityColoring(oci_DynamicRoutingGatewayDRG,$OCIColor(Networking))
 !define oci_DynamicRoutingGatewayDRG(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_DynamicRoutingGatewayDRG, oci_DynamicRoutingGatewayDRG)
 !define oci_DynamicRoutingGatewayDRG(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_DynamicRoutingGatewayDRG, oci_DynamicRoutingGatewayDRG)
 !define OCI_DYNAMICROUTINGGATEWAYDRG(_color)                                 SPRITE_PUT(                                                oci_DynamicRoutingGatewayDRG, _color)
@@ -176,7 +176,7 @@ iNk6wpAtFVF8FvLySORH-hROYYCVwHoqGESfaSu_vB0Ol_DEvs3HFhhAdIP_wF8xVm9J2KvwX_y5
 !endfunction
 
 
-OCIEntityColoring(oci_FlexibleLoadBalancer)
+OCIEntityColoring(oci_FlexibleLoadBalancer,$OCIColor(Networking))
 !define oci_FlexibleLoadBalancer(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_FlexibleLoadBalancer, oci_FlexibleLoadBalancer)
 !define oci_FlexibleLoadBalancer(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_FlexibleLoadBalancer, oci_FlexibleLoadBalancer)
 !define OCI_FLEXIBLELOADBALANCER(_color)                                 SPRITE_PUT(                                            oci_FlexibleLoadBalancer, _color)
@@ -201,7 +201,7 @@ Dp23iSgSaL8PITWCc11O51WOs1kO7rp37CVToftENL8SzW4
 !endfunction
 
 
-OCIEntityColoring(oci_InternetGateway)
+OCIEntityColoring(oci_InternetGateway,$OCIColor(Networking))
 !define oci_InternetGateway(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_InternetGateway, oci_InternetGateway)
 !define oci_InternetGateway(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_InternetGateway, oci_InternetGateway)
 !define OCI_INTERNETGATEWAY(_color)                                 SPRITE_PUT(                                       oci_InternetGateway, _color)
@@ -227,7 +227,7 @@ hqJ4zv6-yYJN-8r_x0y
 !endfunction
 
 
-OCIEntityColoring(oci_IPPools)
+OCIEntityColoring(oci_IPPools,$OCIColor(Networking))
 !define oci_IPPools(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_IPPools, oci_IPPools)
 !define oci_IPPools(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_IPPools, oci_IPPools)
 !define OCI_IPPOOLS(_color)                                 SPRITE_PUT(                               oci_IPPools, _color)
@@ -255,7 +255,7 @@ GFe_z9_jS_y90_IVhWJNtVzY1MRmVVyDWw_xVpHodiTbCYDkG9NAJne6nhlld_J6TG3tD0mcU1EurMeN
 !endfunction
 
 
-OCIEntityColoring(oci_LoadBalancerLB)
+OCIEntityColoring(oci_LoadBalancerLB,$OCIColor(Networking))
 !define oci_LoadBalancerLB(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_LoadBalancerLB, oci_LoadBalancerLB)
 !define oci_LoadBalancerLB(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_LoadBalancerLB, oci_LoadBalancerLB)
 !define OCI_LOADBALANCERLB(_color)                                 SPRITE_PUT(                                      oci_LoadBalancerLB, _color)
@@ -281,7 +281,7 @@ sjyUlCGFa8rYGGE3vmSDV7j-RUo16Zi_jNX-4aZi_6uF2K0yVyW7dv8zaB_G_Lh-j9o_hUUFyVnL6JsU
 !endfunction
 
 
-OCIEntityColoring(oci_LocalPeeringGateway)
+OCIEntityColoring(oci_LocalPeeringGateway,$OCIColor(Networking))
 !define oci_LocalPeeringGateway(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_LocalPeeringGateway, oci_LocalPeeringGateway)
 !define oci_LocalPeeringGateway(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_LocalPeeringGateway, oci_LocalPeeringGateway)
 !define OCI_LOCALPEERINGGATEWAY(_color)                                 SPRITE_PUT(                                           oci_LocalPeeringGateway, _color)
@@ -308,7 +308,7 @@ xG40SSJufUiQqL5QT_TmzsuqL4l8oEK83lBZAtjj_W4
 !endfunction
 
 
-OCIEntityColoring(oci_NATGateway)
+OCIEntityColoring(oci_NATGateway,$OCIColor(Networking))
 !define oci_NATGateway(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_NATGateway, oci_NATGateway)
 !define oci_NATGateway(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_NATGateway, oci_NATGateway)
 !define OCI_NATGATEWAY(_color)                                 SPRITE_PUT(                                  oci_NATGateway, _color)
@@ -340,7 +340,7 @@ Y-B_jTs___fVyDPV9lmF_k-h_GC
 !endfunction
 
 
-OCIEntityColoring(oci_NetworkPerformanceInspector)
+OCIEntityColoring(oci_NetworkPerformanceInspector,$OCIColor(Networking))
 !define oci_NetworkPerformanceInspector(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_NetworkPerformanceInspector, oci_NetworkPerformanceInspector)
 !define oci_NetworkPerformanceInspector(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_NetworkPerformanceInspector, oci_NetworkPerformanceInspector)
 !define OCI_NETWORKPERFORMANCEINSPECTOR(_color)                                 SPRITE_PUT(                                                   oci_NetworkPerformanceInspector, _color)
@@ -364,7 +364,7 @@ LvI72vLc-UP0SY7dwSSHRDggFiXws-yV
 !endfunction
 
 
-OCIEntityColoring(oci_NetworkSwitch)
+OCIEntityColoring(oci_NetworkSwitch,$OCIColor(Networking))
 !define oci_NetworkSwitch(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_NetworkSwitch, oci_NetworkSwitch)
 !define oci_NetworkSwitch(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_NetworkSwitch, oci_NetworkSwitch)
 !define OCI_NETWORKSWITCH(_color)                                 SPRITE_PUT(                                     oci_NetworkSwitch, _color)
@@ -387,7 +387,7 @@ _pV-haNvlnO8NQG-EvGr-cJrvylI717yUgCy0CiQZm
 !endfunction
 
 
-OCIEntityColoring(oci_OnPremisesDataCenter)
+OCIEntityColoring(oci_OnPremisesDataCenter,$OCIColor(Networking))
 !define oci_OnPremisesDataCenter(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_OnPremisesDataCenter, oci_OnPremisesDataCenter)
 !define oci_OnPremisesDataCenter(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_OnPremisesDataCenter, oci_OnPremisesDataCenter)
 !define OCI_ONPREMISESDATACENTER(_color)                                 SPRITE_PUT(                                            oci_OnPremisesDataCenter, _color)
@@ -414,7 +414,7 @@ PEAcx-T7T7py83VcH_pg_ibunugBUE9lj_JYjpDP-8ST_Ty
 !endfunction
 
 
-OCIEntityColoring(oci_RouteTableandSecurityList)
+OCIEntityColoring(oci_RouteTableandSecurityList,$OCIColor(Networking))
 !define oci_RouteTableandSecurityList(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_RouteTableandSecurityList, oci_RouteTableandSecurityList)
 !define oci_RouteTableandSecurityList(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_RouteTableandSecurityList, oci_RouteTableandSecurityList)
 !define OCI_ROUTETABLEANDSECURITYLIST(_color)                                 SPRITE_PUT(                                                 oci_RouteTableandSecurityList, _color)
@@ -440,7 +440,7 @@ _7MMPzSliV6yo8lh9xwV-FZtxwVv1W
 !endfunction
 
 
-OCIEntityColoring(oci_RouteTable)
+OCIEntityColoring(oci_RouteTable,$OCIColor(Networking))
 !define oci_RouteTable(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_RouteTable, oci_RouteTable)
 !define oci_RouteTable(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_RouteTable, oci_RouteTable)
 !define OCI_ROUTETABLE(_color)                                 SPRITE_PUT(                                  oci_RouteTable, _color)
@@ -470,7 +470,7 @@ m3xGVx-5_m4
 !endfunction
 
 
-OCIEntityColoring(oci_ServiceGateway)
+OCIEntityColoring(oci_ServiceGateway,$OCIColor(Networking))
 !define oci_ServiceGateway(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_ServiceGateway, oci_ServiceGateway)
 !define oci_ServiceGateway(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_ServiceGateway, oci_ServiceGateway)
 !define OCI_SERVICEGATEWAY(_color)                                 SPRITE_PUT(                                      oci_ServiceGateway, _color)
@@ -499,7 +499,7 @@ dPAhtxvVt2FhUz9dvTTeRuMFybtr2MTmSMfUUPEBNptXVT4jHl_a-_MT_me
 !endfunction
 
 
-OCIEntityColoring(oci_ServicesNetwork)
+OCIEntityColoring(oci_ServicesNetwork,$OCIColor(Networking))
 !define oci_ServicesNetwork(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_ServicesNetwork, oci_ServicesNetwork)
 !define oci_ServicesNetwork(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_ServicesNetwork, oci_ServicesNetwork)
 !define OCI_SERVICESNETWORK(_color)                                 SPRITE_PUT(                                       oci_ServicesNetwork, _color)
@@ -528,7 +528,7 @@ DZ_drtKCIp9E2o3hsQnzjZFUr7ZONmq0o2kD_PvurcvhEPvFtcFCIZtU-k4KtlRRU_y
 !endfunction
 
 
-OCIEntityColoring(oci_VirtualCloudNetworkVCN_red)
+OCIEntityColoring(oci_VirtualCloudNetworkVCN_red,$OCIColor(Networking))
 !define oci_VirtualCloudNetworkVCN_red(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_VirtualCloudNetworkVCN_red, oci_VirtualCloudNetworkVCN_red)
 !define oci_VirtualCloudNetworkVCN_red(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_VirtualCloudNetworkVCN_red, oci_VirtualCloudNetworkVCN_red)
 !define OCI_VIRTUALCLOUDNETWORKVCN_RED(_color)                                 SPRITE_PUT(                                                  oci_VirtualCloudNetworkVCN_red, _color)
@@ -555,7 +555,7 @@ GS3A77AaoMQW6I6DGv8XixDFlteGHwIhwjttc-zdRuzKhZvnhKhbbWwquy10IKENWUMVcrxCRIMFp5Nc
 !endfunction
 
 
-OCIEntityColoring(oci_VNIC)
+OCIEntityColoring(oci_VNIC,$OCIColor(Networking))
 !define oci_VNIC(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_VNIC, oci_VNIC)
 !define oci_VNIC(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_VNIC, oci_VNIC)
 !define OCI_VNIC(_color)                                 SPRITE_PUT(                            oci_VNIC, _color)
@@ -582,7 +582,7 @@ gc6xypgyxBGLN7nJt6dMCdRXZsv5_rprfKKRJlfMz8u__t1avqdVYjtt_k1bAZRqw4m3TyzxqOe-ua1D
 !endfunction
 
 
-OCIEntityColoring(oci_VTAP)
+OCIEntityColoring(oci_VTAP,$OCIColor(Networking))
 !define oci_VTAP(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_VTAP, oci_VTAP)
 !define oci_VTAP(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_VTAP, oci_VTAP)
 !define OCI_VTAP(_color)                                 SPRITE_PUT(                            oci_VTAP, _color)

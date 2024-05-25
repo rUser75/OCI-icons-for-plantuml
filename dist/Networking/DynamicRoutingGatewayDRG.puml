@@ -15,7 +15,7 @@ K2v4_KFSlz1W08DurB_4_HEZAE9n_nJtRue9z_gtk7zKk7ZKW7e7wcoQy2_wP_t0KvtmD_sxJFtxulom
 !endfunction
 
 
-OCIEntityColoring(oci_DynamicRoutingGatewayDRG)
+OCIEntityColoring(oci_DynamicRoutingGatewayDRG,$OCIColor(Networking))
 !define oci_DynamicRoutingGatewayDRG(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_DynamicRoutingGatewayDRG, oci_DynamicRoutingGatewayDRG)
 !define oci_DynamicRoutingGatewayDRG(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_DynamicRoutingGatewayDRG, oci_DynamicRoutingGatewayDRG)
 !define OCI_DYNAMICROUTINGGATEWAYDRG(_color)                                 SPRITE_PUT(                                                oci_DynamicRoutingGatewayDRG, _color)

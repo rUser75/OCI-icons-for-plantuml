@@ -15,7 +15,7 @@ sjyUlCGFa8rYGGE3vmSDV7j-RUo16Zi_jNX-4aZi_6uF2K0yVyW7dv8zaB_G_Lh-j9o_hUUFyVnL6JsU
 !endfunction
 
 
-OCIEntityColoring(oci_LocalPeeringGateway)
+OCIEntityColoring(oci_LocalPeeringGateway,$OCIColor(Networking))
 !define oci_LocalPeeringGateway(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_LocalPeeringGateway, oci_LocalPeeringGateway)
 !define oci_LocalPeeringGateway(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_LocalPeeringGateway, oci_LocalPeeringGateway)
 !define OCI_LOCALPEERINGGATEWAY(_color)                                 SPRITE_PUT(                                           oci_LocalPeeringGateway, _color)

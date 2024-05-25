@@ -17,7 +17,7 @@ GFe_z9_jS_y90_IVhWJNtVzY1MRmVVyDWw_xVpHodiTbCYDkG9NAJne6nhlld_J6TG3tD0mcU1EurMeN
 !endfunction
 
 
-OCIEntityColoring(oci_LoadBalancerLB)
+OCIEntityColoring(oci_LoadBalancerLB,$OCIColor(Networking))
 !define oci_LoadBalancerLB(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_LoadBalancerLB, oci_LoadBalancerLB)
 !define oci_LoadBalancerLB(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_LoadBalancerLB, oci_LoadBalancerLB)
 !define OCI_LOADBALANCERLB(_color)                                 SPRITE_PUT(                                      oci_LoadBalancerLB, _color)

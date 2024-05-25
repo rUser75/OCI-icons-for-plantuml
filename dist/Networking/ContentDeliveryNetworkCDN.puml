@@ -18,7 +18,7 @@ Xn7k_yOb5lUjrvAJaF-hGbEuEm0Lyh_7wZvWvF-4QNxAcVd_ZA-z_my
 !endfunction
 
 
-OCIEntityColoring(oci_ContentDeliveryNetworkCDN)
+OCIEntityColoring(oci_ContentDeliveryNetworkCDN,$OCIColor(Networking))
 !define oci_ContentDeliveryNetworkCDN(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_ContentDeliveryNetworkCDN, oci_ContentDeliveryNetworkCDN)
 !define oci_ContentDeliveryNetworkCDN(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_ContentDeliveryNetworkCDN, oci_ContentDeliveryNetworkCDN)
 !define OCI_CONTENTDELIVERYNETWORKCDN(_color)                                 SPRITE_PUT(                                                 oci_ContentDeliveryNetworkCDN, _color)

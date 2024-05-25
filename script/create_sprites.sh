@@ -130,11 +130,12 @@ process_png () {
 		spritestereo="$prefixupper $filenameupper"                   # Sprite stereotype is uppercase prefix followed by uppercase filename
 		stereowhites=$(echo $spritestereo | sed -e 's/./ /g')        # This is just whitespace to make output nicer
 		dest=$(echo $file|sed 's/source/dist/'|sed -e 's/.png$//')
+		category=$(dirname $file|sed 's/.*source\///')
 		mkdir -p $(dirname $dest)
                 base64IMG=$(base64 -w 0 $file)
                 echo -e "'Image contente are Copyright Oracle, Inc. or its affiliates. All Rights Reserved. \n\n"                                                        >${dest}.puml
 		echo -e "$($plantumlBin  -encodesprite $graylevel $file | sed '1!b;s/\$/$'${prefix}_'/')\n"                                                              >>${dest}.puml 
-		if [ -n "$(echo $dest|grep -i group)" ]; then
+		if [ -n "$(echo $dest|grep Groups)" ]; then
 			echo -e "!function \$${spritename}GroupIMG(\$scale=1)"                                                                                                        >>${dest}.puml
 		else
 			echo -e "!function \$${spritename}IMG(\$scale=1)"                                                                                                        >>${dest}.puml
@@ -142,7 +143,7 @@ process_png () {
 
 		echo -e "!return \"<img data:image/png;base64,$base64IMG{scale=\"+\$scale+\"}>\""                                                                        >>${dest}.puml
 		echo -e "!endfunction\n\n"                                                                                                                               >>${dest}.puml
-		if [ -n "$(echo $dest|grep -i group)" ]; then
+		if [ -n "$(echo $dest|grep Groups)" ]; then
 			color=$(echo ${descr[$spritenameupper]}|awk -F"|" '{print $2}')
 			longdescr=$(echo ${descr[$spritenameupper]}|awk -F"|" '{print $1}')
 			borderType=$(echo ${descr[$spritenameupper]}|awk -F"|" '{print $3}')
@@ -150,7 +151,7 @@ process_png () {
 			echo "\$OCIGroupColoring(${spritename}Group,\"$color\", $borderType)"                                                                           >>${dest}.puml
 			echo "!define ${spritename}Group(g_alias, g_label=\"$longdescr\") \$OCIDefineGroup(g_alias, g_label, ${spritename}Group, ${spritename}Group)" >>${dest}.puml
 		else
-			echo "OCIEntityColoring($spritename)"                                                                                                                   >>${dest}.puml
+			echo "OCIEntityColoring($spritename,\$OCIColor($category))"                                                                                                                   >>${dest}.puml
 			echo "!define $spritename(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, $spritename, $spritename)"                            >>${dest}.puml
       			echo "!define $spritename(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, $spritename, $spritename)"          >>${dest}.puml
 	                echo "!define $spritenameupper(_color)                                 SPRITE_PUT(          $stereowhites          $spritename, _color)"                 >>${dest}.puml

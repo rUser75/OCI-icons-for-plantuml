@@ -19,7 +19,7 @@ OrzVj4lGNt0SM4Zo-6PpYmhwguMumAdXWjdwe-jRM728bFeJvK-lZu5_lxu6_eBy7m
 !endfunction
 
 
-OCIEntityColoring(oci_DomainNameSystemDNS)
+OCIEntityColoring(oci_DomainNameSystemDNS,$OCIColor(Networking))
 !define oci_DomainNameSystemDNS(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_DomainNameSystemDNS, oci_DomainNameSystemDNS)
 !define oci_DomainNameSystemDNS(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_DomainNameSystemDNS, oci_DomainNameSystemDNS)
 !define OCI_DOMAINNAMESYSTEMDNS(_color)                                 SPRITE_PUT(                                           oci_DomainNameSystemDNS, _color)

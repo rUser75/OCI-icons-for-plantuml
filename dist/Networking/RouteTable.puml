@@ -15,7 +15,7 @@ _7MMPzSliV6yo8lh9xwV-FZtxwVv1W
 !endfunction
 
 
-OCIEntityColoring(oci_RouteTable)
+OCIEntityColoring(oci_RouteTable,$OCIColor(Networking))
 !define oci_RouteTable(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_RouteTable, oci_RouteTable)
 !define oci_RouteTable(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_RouteTable, oci_RouteTable)
 !define OCI_ROUTETABLE(_color)                                 SPRITE_PUT(                                  oci_RouteTable, _color)

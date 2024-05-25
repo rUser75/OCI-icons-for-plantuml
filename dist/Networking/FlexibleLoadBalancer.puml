@@ -18,7 +18,7 @@ iNk6wpAtFVF8FvLySORH-hROYYCVwHoqGESfaSu_vB0Ol_DEvs3HFhhAdIP_wF8xVm9J2KvwX_y5
 !endfunction
 
 
-OCIEntityColoring(oci_FlexibleLoadBalancer)
+OCIEntityColoring(oci_FlexibleLoadBalancer,$OCIColor(Networking))
 !define oci_FlexibleLoadBalancer(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_FlexibleLoadBalancer, oci_FlexibleLoadBalancer)
 !define oci_FlexibleLoadBalancer(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_FlexibleLoadBalancer, oci_FlexibleLoadBalancer)
 !define OCI_FLEXIBLELOADBALANCER(_color)                                 SPRITE_PUT(                                            oci_FlexibleLoadBalancer, _color)

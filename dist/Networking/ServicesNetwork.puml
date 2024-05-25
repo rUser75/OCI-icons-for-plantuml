@@ -18,7 +18,7 @@ dPAhtxvVt2FhUz9dvTTeRuMFybtr2MTmSMfUUPEBNptXVT4jHl_a-_MT_me
 !endfunction
 
 
-OCIEntityColoring(oci_ServicesNetwork)
+OCIEntityColoring(oci_ServicesNetwork,$OCIColor(Networking))
 !define oci_ServicesNetwork(e_alias, e_label, e_techn) OCIEntity(e_alias, e_label, e_techn, #ED7100, oci_ServicesNetwork, oci_ServicesNetwork)
 !define oci_ServicesNetwork(e_alias, e_label, e_techn, e_descr) OCIEntity(e_alias, e_label, e_techn, e_descr, #ED7100, oci_ServicesNetwork, oci_ServicesNetwork)
 !define OCI_SERVICESNETWORK(_color)                                 SPRITE_PUT(                                       oci_ServicesNetwork, _color)
