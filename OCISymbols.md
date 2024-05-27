@@ -3,7 +3,7 @@ Category | PUML macro name | image | file name
 ---    |  ---  | :---:  | ---
 AnalyticsAI | $oci_DataIntegration,$oci_DataIntegrationIMG,oci_DataIntegration,OCI_DATAINTEGRATION, | ![DataIntegration.png](source/AnalyticsAI/DataIntegration.png?raw=true) | AnalyticsAI/DataIntegration.png
 AnalyticsAI | $oci_DocumentUnderstanding,$oci_DocumentUnderstandingIMG,oci_DocumentUnderstanding,OCI_DOCUMENTUNDERSTANDING, | ![DocumentUnderstanding.png](source/AnalyticsAI/DocumentUnderstanding.png?raw=true) | AnalyticsAI/DocumentUnderstanding.png
-AnalyticsAI | $oci_Streaming,$oci_StreamingIMG,oci_Streaming,OCI_STREAMING, | ![Streaming.png](source/AnalyticsAI/Streaming.png?raw=true) | AnalyticsAI/Streaming.png
+AnalyticsAI | $oci_Streaming,<br>$oci_StreamingIMG,oci_Streaming,OCI_STREAMING, | ![Streaming.png](source/AnalyticsAI/Streaming.png?raw=true) | AnalyticsAI/Streaming.png
 AnalyticsAI | $oci_GenerativeAI,$oci_GenerativeAIIMG,oci_GenerativeAI,OCI_GENERATIVEAI, | ![GenerativeAI.png](source/AnalyticsAI/GenerativeAI.png?raw=true) | AnalyticsAI/GenerativeAI.png
 AnalyticsAI | $oci_MachineLearning,$oci_MachineLearningIMG,oci_MachineLearning,OCI_MACHINELEARNING, | ![MachineLearning.png](source/AnalyticsAI/MachineLearning.png?raw=true) | AnalyticsAI/MachineLearning.png
 AnalyticsAI | $oci_Forecasting,$oci_ForecastingIMG,oci_Forecasting,OCI_FORECASTING, | ![Forecasting.png](source/AnalyticsAI/Forecasting.png?raw=true) | AnalyticsAI/Forecasting.png
