@@ -26,13 +26,13 @@ You can include the remote repository or you can download library and after use 
 
 To add the library in the PlantUML you must use the directive
 
-<pre><code>!include https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/<b>v1.0</b>/dist/OCICommon.puml
+<pre><code>!include https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/<b>v1.2</b>/dist/OCICommon.puml
   
 </code></pre>
 
 or this if defining the URL:
 
-<pre><code>!define OCIPuml https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/<b>v1.0</b>/dist/
+<pre><code>!define OCIPuml https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/<b>v1.2</b>/dist/
 </code></pre>
 
 or if you have already donwloaded the library
