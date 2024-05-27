@@ -1,7 +1,7 @@
 
 # OCI Icons for PlantUML
 
-PlantUML images, sprites, macros, and other includes for Oracle Cloud Infrastructure (OUC) services and resources.
+PlantUML images, sprites, macros, and other includes for Oracle Cloud Infrastructure (OCI) services and resources.
 Used to create PlantUML diagrams with OCI components.
 All elements are generated from the official [OCI Architecture Diagram Toolkits](https://docs.oracle.com/en-us/iaas/Content/General/Reference/graphicsfordiagrams.htm).
 The original png files was resized to fit correct size.
