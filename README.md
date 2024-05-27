@@ -69,7 +69,7 @@ The name of all objects have the prefix oci_/OCI_ this to be sure that are not o
 
 ## Hello World
 ```
-@startuml
+@startuml helloWorld
 ' Define the main location (URL or local file path)
 !define OCIPuml https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/v1.0/dist
 ' Include main OCICommon and then resource files
@@ -77,9 +77,13 @@ The name of all objects have the prefix oci_/OCI_ this to be sure that are not o
 !include OCIPuml/Compute/all.puml
 
 oci_VirtualMachine(one,VirtualMachine,this_is_the_pngImage)
-' this is a sprite color,scale,
-OCI_VIRTUALMACHINE(blue,1,luca)
-'OCI_VIRTUALMACHINE(myname,myname,red,"label",two,"my name",rectangle)
+' this is a sprite color,scale,alias
+OCI_VIRTUALMACHINE(blue,1,virta)
+' this is a sprite color,scale,alias,shape (rectangle, node,agent),label
+OCI_FUNCTIONS(red,0.5,funct,node,virtualMachine)
+
+funct --> virta
+virta --> one
 
 @enduml
 ```
