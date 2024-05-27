@@ -13,14 +13,7 @@ The original png files was resized to fit correct size.
 - [Getting Started](#getting-started)
   - [Hello World](#hello-world)
 - [Examples](#examples)
-  - [Basic Usage](#basic-usage)
-  - [Raw Images](#raw-images)
-  - [Simplified View](#simplified-view)
-  - [Sequence Diagrams](#sequence-diagrams)
-- [Distribution "Dist" Details](#distribution-dist-details)
-- [Advanced Examples](#advanced-examples)
-- [Customized Builds](#customized-builds)
-- [Contributing](#contributing)
+  - [List of available symbols](OCISymbols.md)
 - [License Summary](#license-summary)
 - [Acknowledgements](#acknowledgements)
 
@@ -33,13 +26,13 @@ You can include the remote repository or you can download library and after use 
 
 To add the library in the PlantUML you must use the directive
 
-<pre><code>!include https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/<b>v1.0<\b>/dist/OCICommon.puml
+<pre><code>!include https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/<b>v1.0</b>/dist/OCICommon.puml
   
 </code></pre>
 
 or this if defining the URL:
 
-<pre><code>!define OCIPuml https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/<b>v1.0<\b>/dist/
+<pre><code>!define OCIPuml https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/<b>v1.0</b>/dist/
 </code></pre>
 
 or if you have already donwloaded the library
@@ -74,7 +67,7 @@ For example, including these files from the repository (URL), the includes would
 
 The name of all objects have the prefix oci_/OCI_ this to be sure that are not overlay with similar object like AWS,AZURE and so
 
-##Hello World
+## Hello World
 ```
 @startuml
 ' Define the main location (URL or local file path)
@@ -91,4 +84,22 @@ OCI_VIRTUALMACHINE(blue,1,luca)
 @enduml
 ```
 this is the example
+
 ![helloWorld](https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/main/example/helloWorld.png)
+
+# Examples 
+refers to the directory example
+
+# license-summary
+ Code is made available under the MIT license in LICENSE-CODE.
+
+# Acknowledgements and references
+ 
+- [PlantUML](http://plantuml.com/index)
+- [git plantuml](https://github.com/plantuml)
+- [aws-icons-for-plantum](https://github.com/awslabs/aws-icons-for-plantum)
+- [Diagram as Code: Create Your Own Sprites library for PlantUML](https://itnext.io/diagram-as-code-create-your-own-sprites-library-for-plantuml-f8cffb83b038)
+- [OCI Architecture Diagram Toolkits](https://docs.oracle.com/en-us/iaas/Content/General/Reference/graphicsfordiagrams.htm)
+
+
+ 
