@@ -1,10 +1,10 @@
 $OCIGroupColoring(oci_AvailabilityZoneGroup, "#00A4A6", dashed)
 !define oci_AvailabilityZoneGroup(g_alias, g_label="\n  Availability Zone") $OCIDefineGroup(g_alias, g_label, oci_AvailabilityZoneGroup)
 
-$OCIGroupColoring(oci_GenericGroup, "#000000", plain)
+$OCIGroupColoring(oci_GenericGroup, "#BB501C", plain)
 !define oci_GenericGroup(g_alias, g_label="\n Generic") $OCIDefineGroup(g_alias, g_label, oci_GenericGroup)
 
-$OCIGroupColoring(oci_RegionGroup, "#110A4A6", dashed)
+$OCIGroupColoring(oci_RegionGroup, "#11A4A6", plain)
 !define oci_RegionGroup(g_alias, g_label="\n Region") $OCIDefineGroup(g_alias, g_label, oci_RegionGroup)
 
 'Image contente are Copyright Oracle, Inc. or its affiliates. All Rights Reserved. 
@@ -47,5 +47,5 @@ DZ_drtKCIp9E2o3hsQnzjZFUr7ZONmq0o2kD_PvurcvhEPvFtcFCIZtU-k4KtlRRU_y
 !endfunction
 
 
-$OCIGroupColoring(oci_VCNGroup,"#f28533", dashed)
-!define oci_VCNGroup(g_alias, g_label="Subnets") $OCIDefineGroup(g_alias, g_label, oci_VCNGroup, oci_VCNGroup)
+$OCIGroupColoring(oci_VCNGroup,"#f28500", dashed)
+!define oci_VCNGroup(g_alias, g_label="Virtual Cloud Network (VCN)") $OCIDefineGroup(g_alias, g_label, oci_VCNGroup, oci_VCNGroup)

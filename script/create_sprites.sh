@@ -47,8 +47,10 @@ options:
 prefixupper=""          # two sprites with same name on STDLIB
 
 
-descr[VCN]="Virtual Cloud Network (VCN)|#f28500|dashed"
-descr[Subnets]="Subnets|#f28533|dashed"
+declare -A descr
+descr["OCI_VCN"]="Virtual Cloud Network (VCN)|#f28500|dashed"
+descr["OCI_SUBNET"]="Subnets|#f28533|dashed"
+
 
 
 ########################################
@@ -145,7 +147,7 @@ process_png () {
 		echo -e "!endfunction\n\n"                                                                                                                               >>${dest}.puml
 		if [ -n "$(echo $dest|grep Groups)" ]; then
 			color=$(echo ${descr[$spritenameupper]}|awk -F"|" '{print $2}')
-			longdescr=$(echo ${descr[$spritenameupper]}|awk -F"|" '{print $1}')
+			longdescr=$(echo ${descr["$spritenameupper"]}|awk -F"|" '{print $1}')
 			borderType=$(echo ${descr[$spritenameupper]}|awk -F"|" '{print $3}')
 
 			echo "\$OCIGroupColoring(${spritename}Group,\"$color\", $borderType)"                                                                           >>${dest}.puml
