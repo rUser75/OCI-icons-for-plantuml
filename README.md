@@ -91,6 +91,72 @@ this is the example
 
 ![helloWorld](https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/main/example/helloWorld.png)
 
+# Usage 
+
+Each object has a unique  name and you can use it in many ways.
+In [OCISymbols.md](OCISymbols.md) you can find, in the column **PUML macro name** the list of all available names to refers to a specific object.
+
+for example see the below code.
+
+```
+@startuml helloWorld
+' Define the main location (URL or local file path)
+!define OCIPuml https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/v1.2/dist
+' Include main OCICommon and then resource files
+!include OCIPuml/OCICommon.puml
+!include OCIPuml/Compute/all.puml
+
+
+
+component "$oci_VirtualMachineIMG()" as  virt1
+
+file "$oci_VirtualMachineIMG()" as virt2 
+
+oci_VirtualMachine(one,VirtualMachine,this_is_the_pngImage)
+
+' sprite invocation with 5 parameter  (color,scale,alias,shape,description)
+OCI_VIRTUALMACHINE(red,0.5,virt3,rectangle,virtualMachine)
+
+' sprite invocation with  parameter  (color,scale,alias)
+OCI_VIRTUALMACHINE(blue,2,virtualMachine)
+
+@enduml
+```
+
+![usage_01](https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/main/example/usage_01.png)
+
+You can refer to the same object in different ways. You can use one or the other as you like or depending on what you need to do.
+If you include the `Groups.puml` file you can use the groups, this **special** object permitt to grouping severals object in inside it .You can the use the   group for  draw VCN, region o put together elements that rappresents  specific services.
+
+```
+@startuml
+' Define the main location (URL or local file path)
+!define OCIPuml https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/v1.2/dist
+' Include main OCICommon and then resource files
+!include OCIPuml/OCICommon.puml
+!include OCIPuml/Compute/all.puml
+!include OCIPuml/Groups/all.puml
+!include OCIPuml/IdentitySecurity/all.puml
+
+
+oci_RegionGroup(myregion,myregion){
+  oci_VCNGroup(myvcn,myVCN){
+     oci_GenericGroup(mygroup,my_group){
+        oci_VirtualMachine(myvirt1,webServer,webServer)
+        oci_VirtualMachine(myvirt2,ASServer,ASServer)
+     }
+
+     OCI_USERGROUPUNISEX(red,1,user)
+     
+  }
+}
+user ---> myvirt1 :http_requests
+myvirt1 ---> myvirt2
+@enduml
+```
+
+![usage_02](https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/main/example/usage_02.png)
+
 # Examples 
 refers to the directory example
 
