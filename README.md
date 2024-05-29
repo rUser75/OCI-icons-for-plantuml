@@ -12,6 +12,7 @@ The original png files was resized to fit correct size.
 
 - [Getting Started](#getting-started)
   - [Hello World](#hello-world)
+- [Usage](#Usage)
 - [Examples](#examples)
   - [List of available symbols](OCISymbols.md)
 - [License Summary](#license-summary)
@@ -123,6 +124,7 @@ OCI_VIRTUALMACHINE(blue,2,virtualMachine)
 @enduml
 ```
 
+
 ![usage_01](https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/main/example/usage_01.png)
 
 You can refer to the same object in different ways. You can use one or the other as you like or depending on what you need to do.
@@ -158,7 +160,7 @@ myvirt1 ---> myvirt2
 ![usage_02](https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/main/example/usage_02.png)
 
 # Examples 
-refers to the directory example
+refers to the directory example [example](example)
 
 # license-summary
  Code is made available under the MIT license in LICENSE-CODE.
