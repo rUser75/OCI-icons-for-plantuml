@@ -1,0 +1,24 @@
+@startuml helloWorld
+' Define the main location (URL or local file path)
+!define OCIPuml https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/v1.2/dist
+' Include main OCICommon and then resource files
+!include OCIPuml/OCICommon.puml
+!include OCIPuml/Compute/all.puml
+
+
+
+component "$oci_VirtualMachineIMG()" as  virt1
+
+file "$oci_VirtualMachineIMG()" as virt2 
+
+oci_VirtualMachine(one,VirtualMachine,this_is_the_pngImage)
+
+' sprite invocation with 5 parameter  (color,scale,alias,shape,description)
+OCI_VIRTUALMACHINE(red,0.5,virt3,rectangle,virtualMachine)
+
+' sprite invocation with  parameter  (color,scale,alias)
+OCI_VIRTUALMACHINE(blue,2,virtualMachine)
+
+
+
+@enduml

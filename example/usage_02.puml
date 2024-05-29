@@ -1,0 +1,24 @@
+@startuml
+' Define the main location (URL or local file path)
+!define OCIPuml https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/v1.2/dist
+' Include main OCICommon and then resource files
+!include OCIPuml/OCICommon.puml
+!include OCIPuml/Compute/all.puml
+!include OCIPuml/Groups/all.puml
+!include OCIPuml/IdentitySecurity/all.puml
+
+
+oci_RegionGroup(myregion,myregion){
+  oci_VCNGroup(myvcn,myVCN){
+     oci_GenericGroup(mygroup,my_group){
+        oci_VirtualMachine(myvirt1,webServer,webServer)
+        oci_VirtualMachine(myvirt2,ASServer,ASServer)
+     }
+
+     OCI_USERGROUPUNISEX(red,1,user)
+     
+  }
+}
+user ---> myvirt1 :http_requests
+myvirt1 ---> myvirt2
+@enduml
