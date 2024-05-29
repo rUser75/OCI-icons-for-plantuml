@@ -1,0 +1,106 @@
+@startuml oci_example_01
+title oci_example_01
+
+
+!define OCIPuml ./OCI-icons-for-plantuml/dist
+!include OCIPuml/OCICommon.puml
+!include OCIPuml/Compute/all.puml
+!include OCIPuml/Groups/all.puml
+!include OCIPuml/Database/all.puml
+!include OCIPuml/IdentitySecurity/all.puml
+!include OCIPuml/Networking/all.puml
+!include OCIPuml/DeveloperServices/all.puml
+!include OCIPuml/ObservabilityAndManagement/all.puml
+!include OCIPuml/Storage/all.puml
+
+skinparam linetype polyline
+skinparam linetype ortho
+
+' left to right direction
+
+
+
+oci_GenericGroup(onpremises, "On premises"){
+  oci_UserGroupunisex(internalUser,internalUser,internalUser)
+}
+
+oci_RegionGroup(cloud,cloud){
+	oci_WebApplicationFirewallWAF(waf,WAF,WAF)
+	oci_VCNGroup(vcn_a,VCN){
+		oci_SubnetGroup(subneta,"subneta"){
+			oci_DynamicRoutingGatewayDRG(router_on_prem,"router","")
+			oci_VirtualMachine(bastion_service,"Bastion Service","Bastion Service")
+			oci_LoadBalancerLB(public_lb,"Public Load Balancer","Public Load Balancer")
+			oci_ServiceGateway(sg_0,"SG-0","")
+			
+			oci_DynamicRoutingGatewayDRG(internet_gateway,"Internet Gateway","Internet Gateway")
+		}
+	}
+	oci_VCNGroup(vcn_b,VCN){
+		oci_LoadBalancerLB(lb_info,"LB INFO","LB INFO")
+		oci_LoadBalancerLB(lb_webf,"LB WEBF","LB WEBF")
+		oci_SubnetGroup(subnetb,"subneta"){
+			oci_Containers(kube_test,"Compartment A","Kuber Test")
+			oci_Containers(kube_prod,"Compartment A","Kuber Test")
+			oci_ServiceGateway(sg_1,"SG-1","")
+			kube_test -[hidden]- kube_prod
+		}
+'		subnetb -[hidden]d- lb_info
+'		subnetb -[hidden]d- lb_webf
+	}
+	oci_VCNGroup(vcn_c,VCN)  {
+		oci_SubnetGroup(subnetc,"subneta"){
+			oci_ServiceGateway(sg_2,"SG-2","")
+			oci_AutonomousDatabaseWarehouse(lunatst,LUNATST,LUNATST ,"Compartment A")
+			oci_AutonomousDatabaseWarehouse(mizartst,MIZARTST,MIZARTST, "Compartment A")
+			oci_AutonomousDatabaseWarehouse(lunaprd,LUNAPRD,LUNAPRD,"Compartment B")
+			oci_AutonomousDatabaseWarehouse(mizarprd,MIZARPRD,MIZARPRD,"Compartment B")
+		}
+	}
+	vcn_a -[hidden]- vcn_b
+	vcn_b -[hidden]- vcn_c
+}
+	skinparam packageStyle rectangle
+	package external {
+		oci_GenericGroup(internet, "Internet"){
+			oci_UserGroupunisex(groups,Groups,Groups)
+		}
+		oci_GenericGroup(oracle_sn, "Oracle Service Network"){
+			oci_Policies(policies,Policies,Policies)
+			oci_Logging(logging,Logging,Logging)
+			oci_IAM(idcs,IDCS,IDCS)
+			oci_Auditing(auditing,Auditing,Auditing)
+			oci_ObjectStorage(object_storage,"Object Storage","Object Storage")
+			policies -[hidden]d- idcs
+			idcs -[hidden]d- auditing
+			auditing -[hidden]d- logging 
+			logging -[hidden]d- object_storage
+		}
+		oci_GenericGroup(3d_party_cloud, "3rd Party Cloud"){
+			oci_ObjectStorage(object_storage2,"Object Storage","Object Storage")
+		}		
+		internet -[hidden]d- oracle_sn
+		oracle_sn -[hidden]d- 3d_party_cloud 
+	}
+
+
+onpremises -[hidden]r- cloud
+cloud -[hidden]r- external
+onpremises -[hidden]r- external
+
+sg_0 <--> sg_1
+sg_1 <--> sg_2
+sg_0 <--> object_storage
+sg_1 <--> object_storage
+sg_2 <--> object_storage
+
+
+public_lb -- waf
+waf -- internet_gateway
+groups --- internet_gateway
+object_storage --- object_storage2
+ internalUser -- router_on_prem
+bastion_service -[hidden]d- lb_public
+lb_info -[hidden]d- lb_webf
+
+@enduml
