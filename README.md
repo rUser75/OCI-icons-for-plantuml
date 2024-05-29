@@ -59,7 +59,7 @@ For example, including these files from the repository (URL), the includes would
 
 ```
 ' Define the main location (URL or local file path)
-!define OCIPuml https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/v1.0/dist/
+!define OCIPuml https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/v1.2/dist/
 ' Include main OCICommon and then resource files
 !include OCIPuml/OCICommon.puml
 !include OCIPuml/Compute/all.puml
@@ -72,7 +72,7 @@ The name of all objects have the prefix oci_/OCI_ this to be sure that are not o
 ```
 @startuml helloWorld
 ' Define the main location (URL or local file path)
-!define OCIPuml https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/v1.0/dist
+!define OCIPuml https://raw.githubusercontent.com/rUser75/OCI-icons-for-plantuml/v1.2/dist
 ' Include main OCICommon and then resource files
 !include OCIPuml/OCICommon.puml
 !include OCIPuml/Compute/all.puml
